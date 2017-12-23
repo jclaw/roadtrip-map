@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Roadtrip Map</title>
+    <meta name="author" content="Jackson Clawson">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="favicon.png" type="image/vnd.microsoft.icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="css/lib/simple-grid.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div id="window" data-bind="css: windowView">
+        <div class="view" data-bind="visible: windowView() == 'day'">
+            <div class="header">
+                <div class="day-nav">
+                    <a href="" data-bind="click: prevDay, css: {'disabled': !prevDayActive()}"><img class="icon back" src="img/left-chevron.svg"></a>
+                    <a href="" data-bind="click: nextDay, css: {'disabled': !nextDayActive()}"><img class="icon forward" src="img/right-chevron.svg"></a>
+                    <div class="day-header-text">
+                        <div class="day-title" data-bind="text: dayTitle"></div>
+                        <div class="day-subtitle" data-bind="text: daySubtitle"></div>
+                    </div>
+                </div>
+                <a href="" data-bind="click: closeWindow" ><img class="icon close" src="img/close.svg"></a>
+            </div>
+            <div class="content grid">
+                <div class="sidebar">
+                    <div class="description" data-bind="html: dayDatum().description"></div>
+                </div>
+                <div class="media" data-bind="foreach: {data: dayDatum().media, as: 'media'}">
+                    <img data-bind="attr: {src: media.thumb}, click: $root.selectImage.bind($data, $index())">
+                </div>
+            </div>
+        </div>
+
+        <div class="view" data-bind="visible: windowView() == 'single-media'">
+            <div class="header">
+                <span class="clickable" data-bind="click: backToDay.bind($data)"><span class="go-back"><img class="icon back" src="img/left-chevron.svg">Day <span data-bind="text: currDayUI"></span></span></span>
+                <a href="" data-bind="click: closeWindow"><img class="icon close" src="img/close.svg"></a>
+            </div>
+            <div class="content">
+                <div class="nav left" data-bind="click: prevImage, visible: prevImageActive()">
+                    <a href=""><img class="icon back" src="img/left-chevron.svg"></a>
+                </div>
+                <div class="nav right" data-bind="click: nextImage, visible: nextImageActive()">
+                    <a href=""><img class="icon forward" src="img/right-chevron.svg"></a>
+                </div>
+                <div class="featured-media">
+                    <img data-bind="visible: currMedia().filetype == 'photo', attr: {src: currMedia().path}">
+                    <video src="https://drive.google.com/file/d/1Ysd4Q-z9NMzCq4wKORL9BNGKQkPRQnac/preview" autoplay></video>
+                    <video data-bind="visible: currMedia().filetype == 'video', attr: {src: currMedia().path}" autoplay></video>
+                    <img data-bind="visible: currMedia().filetype == 'audio'" class="icon audio-high" src="img/audio-high.svg">
+                    <div data-bind="visible: " class="media-controls">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="view loading" data-bind="visible: !window.GMapsControl">
+            <div class="content">
+
+                loading...
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/googleMapsResponse_python.js"></script>
+    <script type="text/javascript" src="js/lib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/lib/knockout-3.4.2.min.js"></script>
+    <script type="text/javascript" src="js/gmapsControl.js"></script>
+    <script type="text/javascript" src="js/dayData.js"></script>
+    <script type="text/javascript" src="js/mediaControl.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXJuR9Xmk89rHf2ExIsIp2yeP1S9aoWU4&callback=GMapsControl.initMap">
+    </script>
+</body>
+</html>
