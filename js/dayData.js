@@ -103,12 +103,7 @@ var DayData = [
                 "path": "img/day1/IMG_2523_full.jpg",
                 "thumb": "img/day1/IMG_2523_thumb.jpg"
             },
-            {
-                "filename": "IMG_2523.jpg",
-                "filetype": "photo",
-                "path": "img/day1/IMG_2523_full.jpg",
-                "thumb": "img/day1/IMG_2523_thumb.jpg"
-            },
+            {},
             {
                 "filename": "Y-DSC_5030.jpg",
                 "filetype": "photo",
@@ -127,12 +122,7 @@ var DayData = [
                 "path": "img/day1/Y-IMG_6607_full.jpg",
                 "thumb": "img/day1/Y-IMG_6607_thumb.jpg"
             },
-            {
-                "filename": "Y-IMG_6607.jpg",
-                "filetype": "photo",
-                "path": "img/day1/Y-IMG_6607_full.jpg",
-                "thumb": "img/day1/Y-IMG_6607_thumb.jpg"
-            },
+            {},
             {
                 "filename": "Z-IMG_2527.jpg",
                 "filetype": "photo",
@@ -281,12 +271,7 @@ var DayData = [
                 "path": "https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview",
                 "thumb": "img/day3/W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4_thumb.jpg"
             },
-            {
-                "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4",
-                "filetype": "video",
-                "path": "https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview",
-                "thumb": "img/day3/W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4_thumb.jpg"
-            },
+            {},
             {
                 "filename": "X-IMG_6617.jpg",
                 "filetype": "photo",
@@ -317,12 +302,7 @@ var DayData = [
                 "path": "img/day3/Y-DSC_5199_full.jpg",
                 "thumb": "img/day3/Y-DSC_5199_thumb.jpg"
             },
-            {
-                "filename": "Y-DSC_5199.jpg",
-                "filetype": "photo",
-                "path": "img/day3/Y-DSC_5199_full.jpg",
-                "thumb": "img/day3/Y-DSC_5199_thumb.jpg"
-            },
+            {},
             {
                 "filename": "Z-IMG_2537.JPG",
                 "filetype": "photo",
@@ -776,12 +756,7 @@ var DayData = [
                 "path": "https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview",
                 "thumb": "img/day6/Z1-IMG_6658.m4v_thumb.jpg"
             },
-            {
-                "filename": "Z1-IMG_6658.m4v",
-                "filetype": "video",
-                "path": "https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview",
-                "thumb": "img/day6/Z1-IMG_6658.m4v_thumb.jpg"
-            },
+            {},
             {
                 "filename": "Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4",
                 "filetype": "video",
@@ -853,12 +828,7 @@ var DayData = [
                 "path": "img/day7/E-D-IMG_6660_full.jpg",
                 "thumb": "img/day7/E-D-IMG_6660_thumb.jpg"
             },
-            {
-                "filename": "E-D-IMG_6660.jpg",
-                "filetype": "photo",
-                "path": "img/day7/E-D-IMG_6660_full.jpg",
-                "thumb": "img/day7/E-D-IMG_6660_thumb.jpg"
-            },
+            {},
             {
                 "filename": "E-DSC_5561.jpg",
                 "filetype": "photo",
@@ -1134,12 +1104,7 @@ var DayData = [
                 "path": "img/day8/Z-IMG_2691_full.jpg",
                 "thumb": "img/day8/Z-IMG_2691_thumb.jpg"
             },
-            {
-                "filename": "Z-IMG_2691.jpg",
-                "filetype": "photo",
-                "path": "img/day8/Z-IMG_2691_full.jpg",
-                "thumb": "img/day8/Z-IMG_2691_thumb.jpg"
-            }
+            {}
         ],
         "start_address": "611 W Main St, Riverton, WY 82501, USA"
     },

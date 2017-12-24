@@ -48,9 +48,11 @@ def main():
 
         listdir = os.listdir('../img/' + day)
 
-        for x in listdir:
+        for i, x in enumerate(listdir):
+            media = {}
             basename = os.path.splitext(x)[0]
             extension = os.path.splitext(x)[1]
+
             if x.startswith('.') or basename.endswith('_thumb') or basename.endswith('_full'): continue
 
             if filetype(basename) == 'video' and basename in video_map.keys():
@@ -69,10 +71,11 @@ def main():
                     'filetype': filetype(x)
                 }
 
-            if media: day_media.append(media)
+            day_media.append(media)
 
         day_data[day_num]['media'] = day_media
 
+        # parse rtf files to html
         xml = subprocess.check_output(['rtf2xml', day + '.rtf'])
         root = etree.fromstring(xml)
         section = root[1][0]
