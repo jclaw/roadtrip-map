@@ -97,7 +97,7 @@ def main():
                 media = {
                     'path': video_map[basename],
                     'filename': x,
-                    'thumb': 'img/day' + str(day_num_UI) + '/_thumb_' + x + '.jpg',
+                    'thumb': 'img/day' + str(day_num_UI) + '/_thumb_' + basename + '.jpg',
                     'filetype': 'video'
                 }
 

@@ -112,6 +112,10 @@ var MediaControlVM = function (hashString) {
         return self.currDay() < 11;
     })
 
+    this.imageLoad = function(data, e) {
+        $(e.target).parent().addClass('img-loaded');
+    }
+
     // single image controls
 
     this.selectImage = function (index) {

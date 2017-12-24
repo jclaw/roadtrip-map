@@ -65,7 +65,7 @@ var DayData = [
                 "filename": "C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1Ysd4Q-z9NMzCq4wKORL9BNGKQkPRQnac/preview",
-                "thumb": "img/day1/_thumb_C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4.png.jpg"
+                "thumb": "img/day1/_thumb_C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4.jpg"
             },
             {
                 "filename": "DSC_5070.jpg",
@@ -166,7 +166,7 @@ var DayData = [
                 "filename": "A-IMG_6611.m4v.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1cc2Swcbpi5thkmdgtwFrgQNV7_oF3tY3/preview",
-                "thumb": "img/day2/_thumb_A-IMG_6611.m4v.png.jpg"
+                "thumb": "img/day2/_thumb_A-IMG_6611.m4v.jpg"
             },
             {
                 "filename": "C-IMG_0137.JPG",
@@ -279,13 +279,13 @@ var DayData = [
                 "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview",
-                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png.jpg"
+                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.jpg"
             },
             {
                 "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview",
-                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png.jpg"
+                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.jpg"
             },
             {
                 "filename": "X-IMG_6617.jpg",
@@ -451,7 +451,7 @@ var DayData = [
                 "filename": "G-IMG_0162.MOV.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1hXE4MYrphPVyAIkjWuhXvKDQbNmVroez/preview",
-                "thumb": "img/day5/_thumb_G-IMG_0162.MOV.png.jpg"
+                "thumb": "img/day5/_thumb_G-IMG_0162.MOV.jpg"
             },
             {
                 "filename": "IMG_6641.jpg",
@@ -475,7 +475,7 @@ var DayData = [
                 "filename": "ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1JDvEk5rJC5tgYiKO9GPNTMXB69fcwWDH/preview",
-                "thumb": "img/day5/_thumb_ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4.png.jpg"
+                "thumb": "img/day5/_thumb_ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4.jpg"
             },
             {
                 "filename": "Z-IMG_2557.jpg",
@@ -582,7 +582,7 @@ var DayData = [
                 "filename": "D1-IMG_0661.MOV.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1ohjVmtlVaD4rwHXpsYDzLAWcIUuS_ZjA/preview",
-                "thumb": "img/day6/_thumb_D1-IMG_0661.MOV.png.jpg"
+                "thumb": "img/day6/_thumb_D1-IMG_0661.MOV.jpg"
             },
             {
                 "filename": "DSC_5343.jpg",
@@ -666,7 +666,7 @@ var DayData = [
                 "filename": "IMG_2596.mov.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1rZ9N9vWNWdCO-zHiCsSOo85FsaaEYYpk/preview",
-                "thumb": "img/day6/_thumb_IMG_2596.mov.png.jpg"
+                "thumb": "img/day6/_thumb_IMG_2596.mov.jpg"
             },
             {
                 "filename": "J-DSC_5463.jpg",
@@ -756,7 +756,7 @@ var DayData = [
                 "filename": "Y-IMG_2616.m4v.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1SoMMdz30veigrbVOnplDAqPuMiDlh7p_/preview",
-                "thumb": "img/day6/_thumb_Y-IMG_2616.m4v.png.jpg"
+                "thumb": "img/day6/_thumb_Y-IMG_2616.m4v.jpg"
             },
             {
                 "filename": "Z-IMG_0178.JPG",
@@ -774,19 +774,19 @@ var DayData = [
                 "filename": "Z1-IMG_6658.m4v.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview",
-                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.png.jpg"
+                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.jpg"
             },
             {
                 "filename": "Z1-IMG_6658.m4v.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview",
-                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.png.jpg"
+                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.jpg"
             },
             {
                 "filename": "Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1d6YRJxpNZcvzySWm9BovgFseJiUN119u/preview",
-                "thumb": "img/day6/_thumb_Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4.png.jpg"
+                "thumb": "img/day6/_thumb_Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4.jpg"
             }
         ],
         "start_address": "Bozeman, MT, USA"
@@ -839,13 +839,13 @@ var DayData = [
                 "filename": "DSC_5560.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/17U0rvivWafrGI14uFOHivY_h66H_pYlo/preview",
-                "thumb": "img/day7/_thumb_DSC_5560.mp4.png.jpg"
+                "thumb": "img/day7/_thumb_DSC_5560.mp4.jpg"
             },
             {
                 "filename": "E-D-IMG_2622.m4v.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/119_cV5IXRzUOlpBaSg34lj-J7LelaaoF/preview",
-                "thumb": "img/day7/_thumb_E-D-IMG_2622.m4v.png.jpg"
+                "thumb": "img/day7/_thumb_E-D-IMG_2622.m4v.jpg"
             },
             {
                 "filename": "E-D-IMG_6660.jpg",
@@ -1007,7 +1007,7 @@ var DayData = [
                 "filename": "Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1hy-nRWUy_v0nN7Zrapbk3kuRvgO-lPD9/preview",
-                "thumb": "img/day7/_thumb_Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4.png.jpg"
+                "thumb": "img/day7/_thumb_Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4.jpg"
             },
             {
                 "filename": "Z-IMG_0512.jpg",
@@ -1025,7 +1025,7 @@ var DayData = [
                 "filename": "Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/10vKx2nsv9yiOVPhQfTnBa5a19E9QHrX7/preview",
-                "thumb": "img/day7/_thumb_Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4.png.jpg"
+                "thumb": "img/day7/_thumb_Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4.jpg"
             }
         ],
         "start_address": "7527 N 1000 E, Tetonia, ID 83452, USA"
@@ -1185,7 +1185,7 @@ var DayData = [
                 "filename": "D-IMG_6699.m4v.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1kUFnzS0YZTnwedPSu0daVbhNQ4nMXKVm/preview",
-                "thumb": "img/day9/_thumb_D-IMG_6699.m4v.png.jpg"
+                "thumb": "img/day9/_thumb_D-IMG_6699.m4v.jpg"
             },
             {
                 "filename": "DSC_5730.jpg",
@@ -1263,7 +1263,7 @@ var DayData = [
                 "filename": "ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4.png",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1qErlk87xNdsjP4HhRjwtfZ8mwuckH--D/preview",
-                "thumb": "img/day9/_thumb_ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4.png.jpg"
+                "thumb": "img/day9/_thumb_ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4.jpg"
             },
             {
                 "filename": "J-IMG_6707.jpg",
