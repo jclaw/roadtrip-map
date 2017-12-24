@@ -62,10 +62,10 @@ var DayData = [
                 "thumb": "img/day1/_thumb_B-IMG_2517.jpeg"
             },
             {
-                "filename": "C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4",
+                "filename": "C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1Ysd4Q-z9NMzCq4wKORL9BNGKQkPRQnac/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day1/_thumb_C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4.jpg"
+                "path": "https://drive.google.com/file/d/1Ysd4Q-z9NMzCq4wKORL9BNGKQkPRQnac/preview",
+                "thumb": "img/day1/_thumb_C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4.png.jpg"
             },
             {
                 "filename": "DSC_5070.jpg",
@@ -104,8 +104,10 @@ var DayData = [
                 "thumb": "img/day1/_thumb_IMG_2523.jpg"
             },
             {
-                "filename": "thorn junction.m4a",
-                "filetype": "audio"
+                "filename": "IMG_2523.jpg",
+                "filetype": "photo",
+                "path": "img/day1/IMG_2523.jpg",
+                "thumb": "img/day1/_thumb_IMG_2523.jpg"
             },
             {
                 "filename": "Y-DSC_5030.jpg",
@@ -126,8 +128,10 @@ var DayData = [
                 "thumb": "img/day1/_thumb_Y-IMG_6607.jpg"
             },
             {
-                "filename": "Z-Conor Singing Maura's Harmony.m4a",
-                "filetype": "audio"
+                "filename": "Y-IMG_6607.jpg",
+                "filetype": "photo",
+                "path": "img/day1/Y-IMG_6607.jpg",
+                "thumb": "img/day1/_thumb_Y-IMG_6607.jpg"
             },
             {
                 "filename": "Z-IMG_2527.jpg",
@@ -159,10 +163,10 @@ var DayData = [
                 "thumb": "img/day2/_thumb_A-DSC_5111.jpg"
             },
             {
-                "filename": "A-IMG_6611.m4v",
+                "filename": "A-IMG_6611.m4v.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1cc2Swcbpi5thkmdgtwFrgQNV7_oF3tY3/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day2/_thumb_A-IMG_6611.m4v.jpg"
+                "path": "https://drive.google.com/file/d/1cc2Swcbpi5thkmdgtwFrgQNV7_oF3tY3/preview",
+                "thumb": "img/day2/_thumb_A-IMG_6611.m4v.png.jpg"
             },
             {
                 "filename": "C-IMG_0137.JPG",
@@ -272,14 +276,16 @@ var DayData = [
                 "thumb": "img/day3/_thumb_W-DSC_5182.jpg"
             },
             {
-                "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4",
+                "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.jpg"
+                "path": "https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview",
+                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png.jpg"
             },
             {
-                "filename": "X-elegy to celery.m4a",
-                "filetype": "audio"
+                "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png",
+                "filetype": "video",
+                "path": "https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview",
+                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png.jpg"
             },
             {
                 "filename": "X-IMG_6617.jpg",
@@ -312,8 +318,10 @@ var DayData = [
                 "thumb": "img/day3/_thumb_Y-DSC_5199.jpg"
             },
             {
-                "filename": "Z-Corner of My Mind.m4a",
-                "filetype": "audio"
+                "filename": "Y-DSC_5199.jpg",
+                "filetype": "photo",
+                "path": "img/day3/Y-DSC_5199.jpg",
+                "thumb": "img/day3/_thumb_Y-DSC_5199.jpg"
             },
             {
                 "filename": "Z-IMG_2537.JPG",
@@ -440,10 +448,10 @@ var DayData = [
                 "thumb": "img/day5/_thumb_G-DSC_5238.jpg"
             },
             {
-                "filename": "G-IMG_0162.MOV",
+                "filename": "G-IMG_0162.MOV.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1hXE4MYrphPVyAIkjWuhXvKDQbNmVroez/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day5/_thumb_G-IMG_0162.MOV.jpg"
+                "path": "https://drive.google.com/file/d/1hXE4MYrphPVyAIkjWuhXvKDQbNmVroez/preview",
+                "thumb": "img/day5/_thumb_G-IMG_0162.MOV.png.jpg"
             },
             {
                 "filename": "IMG_6641.jpg",
@@ -464,10 +472,10 @@ var DayData = [
                 "thumb": "img/day5/_thumb_IMG_6688.jpg"
             },
             {
-                "filename": "ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4",
+                "filename": "ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1JDvEk5rJC5tgYiKO9GPNTMXB69fcwWDH/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day5/_thumb_ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4.jpg"
+                "path": "https://drive.google.com/file/d/1JDvEk5rJC5tgYiKO9GPNTMXB69fcwWDH/preview",
+                "thumb": "img/day5/_thumb_ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4.png.jpg"
             },
             {
                 "filename": "Z-IMG_2557.jpg",
@@ -571,10 +579,10 @@ var DayData = [
                 "thumb": "img/day6/_thumb_D1-DSC_5467.jpg"
             },
             {
-                "filename": "D1-IMG_0661.MOV",
+                "filename": "D1-IMG_0661.MOV.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1ohjVmtlVaD4rwHXpsYDzLAWcIUuS_ZjA/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day6/_thumb_D1-IMG_0661.MOV.jpg"
+                "path": "https://drive.google.com/file/d/1ohjVmtlVaD4rwHXpsYDzLAWcIUuS_ZjA/preview",
+                "thumb": "img/day6/_thumb_D1-IMG_0661.MOV.png.jpg"
             },
             {
                 "filename": "DSC_5343.jpg",
@@ -655,10 +663,10 @@ var DayData = [
                 "thumb": "img/day6/_thumb_DSC_5453.jpg"
             },
             {
-                "filename": "IMG_2596.mov",
+                "filename": "IMG_2596.mov.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1rZ9N9vWNWdCO-zHiCsSOo85FsaaEYYpk/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day6/_thumb_IMG_2596.mov.jpg"
+                "path": "https://drive.google.com/file/d/1rZ9N9vWNWdCO-zHiCsSOo85FsaaEYYpk/preview",
+                "thumb": "img/day6/_thumb_IMG_2596.mov.png.jpg"
             },
             {
                 "filename": "J-DSC_5463.jpg",
@@ -745,10 +753,10 @@ var DayData = [
                 "thumb": "img/day6/_thumb_Y-DSC_5535.jpg"
             },
             {
-                "filename": "Y-IMG_2616.m4v",
+                "filename": "Y-IMG_2616.m4v.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1SoMMdz30veigrbVOnplDAqPuMiDlh7p_/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day6/_thumb_Y-IMG_2616.m4v.jpg"
+                "path": "https://drive.google.com/file/d/1SoMMdz30veigrbVOnplDAqPuMiDlh7p_/preview",
+                "thumb": "img/day6/_thumb_Y-IMG_2616.m4v.png.jpg"
             },
             {
                 "filename": "Z-IMG_0178.JPG",
@@ -763,20 +771,22 @@ var DayData = [
                 "thumb": "img/day6/_thumb_Z1-IMG_6656.jpg"
             },
             {
-                "filename": "Z1-IMG_6658.m4v",
+                "filename": "Z1-IMG_6658.m4v.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.jpg"
+                "path": "https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview",
+                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.png.jpg"
             },
             {
-                "filename": "Z1-Tetons.m4a",
-                "filetype": "audio"
+                "filename": "Z1-IMG_6658.m4v.png",
+                "filetype": "video",
+                "path": "https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview",
+                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.png.jpg"
             },
             {
-                "filename": "Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4",
+                "filename": "Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1d6YRJxpNZcvzySWm9BovgFseJiUN119u/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day6/_thumb_Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4.jpg"
+                "path": "https://drive.google.com/file/d/1d6YRJxpNZcvzySWm9BovgFseJiUN119u/preview",
+                "thumb": "img/day6/_thumb_Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4.png.jpg"
             }
         ],
         "start_address": "Bozeman, MT, USA"
@@ -826,16 +836,16 @@ var DayData = [
                 "thumb": "img/day7/_thumb_DSC_5558.jpg"
             },
             {
-                "filename": "DSC_5560.mp4",
+                "filename": "DSC_5560.mp4.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/17U0rvivWafrGI14uFOHivY_h66H_pYlo/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day7/_thumb_DSC_5560.mp4.jpg"
+                "path": "https://drive.google.com/file/d/17U0rvivWafrGI14uFOHivY_h66H_pYlo/preview",
+                "thumb": "img/day7/_thumb_DSC_5560.mp4.png.jpg"
             },
             {
-                "filename": "E-D-IMG_2622.m4v",
+                "filename": "E-D-IMG_2622.m4v.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/119_cV5IXRzUOlpBaSg34lj-J7LelaaoF/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day7/_thumb_E-D-IMG_2622.m4v.jpg"
+                "path": "https://drive.google.com/file/d/119_cV5IXRzUOlpBaSg34lj-J7LelaaoF/preview",
+                "thumb": "img/day7/_thumb_E-D-IMG_2622.m4v.png.jpg"
             },
             {
                 "filename": "E-D-IMG_6660.jpg",
@@ -844,8 +854,10 @@ var DayData = [
                 "thumb": "img/day7/_thumb_E-D-IMG_6660.jpg"
             },
             {
-                "filename": "E-D1-aidan mandolin.m4a",
-                "filetype": "audio"
+                "filename": "E-D-IMG_6660.jpg",
+                "filetype": "photo",
+                "path": "img/day7/E-D-IMG_6660.jpg",
+                "thumb": "img/day7/_thumb_E-D-IMG_6660.jpg"
             },
             {
                 "filename": "E-DSC_5561.jpg",
@@ -992,10 +1004,10 @@ var DayData = [
                 "thumb": "img/day7/_thumb_IMG_2644.jpg"
             },
             {
-                "filename": "Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4",
+                "filename": "Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1hy-nRWUy_v0nN7Zrapbk3kuRvgO-lPD9/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day7/_thumb_Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4.jpg"
+                "path": "https://drive.google.com/file/d/1hy-nRWUy_v0nN7Zrapbk3kuRvgO-lPD9/preview",
+                "thumb": "img/day7/_thumb_Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4.png.jpg"
             },
             {
                 "filename": "Z-IMG_0512.jpg",
@@ -1010,10 +1022,10 @@ var DayData = [
                 "thumb": "img/day7/_thumb_Z-IMG_0869.JPG"
             },
             {
-                "filename": "Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4",
+                "filename": "Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/10vKx2nsv9yiOVPhQfTnBa5a19E9QHrX7/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day7/_thumb_Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4.jpg"
+                "path": "https://drive.google.com/file/d/10vKx2nsv9yiOVPhQfTnBa5a19E9QHrX7/preview",
+                "thumb": "img/day7/_thumb_Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4.png.jpg"
             }
         ],
         "start_address": "7527 N 1000 E, Tetonia, ID 83452, USA"
@@ -1123,8 +1135,10 @@ var DayData = [
                 "thumb": "img/day8/_thumb_Z-IMG_2691.jpg"
             },
             {
-                "filename": "Z1-9-11-17, 11:23 PM.m4a",
-                "filetype": "audio"
+                "filename": "Z-IMG_2691.jpg",
+                "filetype": "photo",
+                "path": "img/day8/Z-IMG_2691.jpg",
+                "thumb": "img/day8/_thumb_Z-IMG_2691.jpg"
             }
         ],
         "start_address": "611 W Main St, Riverton, WY 82501, USA"
@@ -1168,10 +1182,10 @@ var DayData = [
                 "thumb": "img/day9/_thumb_C-IMG_0754.JPG"
             },
             {
-                "filename": "D-IMG_6699.m4v",
+                "filename": "D-IMG_6699.m4v.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1kUFnzS0YZTnwedPSu0daVbhNQ4nMXKVm/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day9/_thumb_D-IMG_6699.m4v.jpg"
+                "path": "https://drive.google.com/file/d/1kUFnzS0YZTnwedPSu0daVbhNQ4nMXKVm/preview",
+                "thumb": "img/day9/_thumb_D-IMG_6699.m4v.png.jpg"
             },
             {
                 "filename": "DSC_5730.jpg",
@@ -1246,10 +1260,10 @@ var DayData = [
                 "thumb": "img/day9/_thumb_G-DSC_5835.jpg"
             },
             {
-                "filename": "ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4",
+                "filename": "ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4.png",
                 "filetype": "video",
-                "path": "<iframe src=\"https://drive.google.com/file/d/1qErlk87xNdsjP4HhRjwtfZ8mwuckH--D/preview\" width=\"640\" height=\"480\"></iframe>",
-                "thumb": "img/day9/_thumb_ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4.jpg"
+                "path": "https://drive.google.com/file/d/1qErlk87xNdsjP4HhRjwtfZ8mwuckH--D/preview",
+                "thumb": "img/day9/_thumb_ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4.png.jpg"
             },
             {
                 "filename": "J-IMG_6707.jpg",
