@@ -28,29 +28,38 @@ def main():
 
         if len(sys.argv) > 1 and sys.argv[1] == '-rm':
             for x in os.listdir(day_path):
-                if x.startswith('_thumb_') or x.startswith('_full_'):
+                basename = os.path.splitext(x)[0]
+                if basename.endswith('_thumb') or basename.endswith('_full'):
                     os.remove(day_path + '/' + x)
         else:
             for x in os.listdir(day_path):
-                if x.startswith('.') or x.startswith('_thumb_'): continue
+                basename = os.path.splitext(x)[0]
+                extension = os.path.splitext(x)[1]
+                if x.startswith('.') or basename.endswith('_thumb') or basename.endswith('_full'): continue
                 printnln('.')
 
                 # create thumbs
                 if filetype(x) == 'photo':
                     fd_img = open(day_path + '/' + x, 'r')
                     img = Image.open(fd_img)
+                    is_png = x.endswith('.png')
 
-                    if x.endswith('.png'):
+                    if is_png:
                         img = img.convert('RGB')
-                        x = os.path.splitext(x)[0] + '.jpg'
+                        extension = '.jpg'
+
+                    thumb_path = day_path + '/' + basename + '_thumb' + extension
+                    full_path = day_path + '/' + basename + '_full' + extension
+
 
                     if len(sys.argv) > 1 and sys.argv[1] == '-f':
                         make_thumb, make_full = True, True
                     else:
-                        make_thumb = not os.path.isfile(day_path + '/_thumb_' + x)
-                        make_full = not os.path.isfile(day_path + '/_full_' + x)
+                        make_thumb = not os.path.isfile(thumb_path)
+                        make_full = not os.path.isfile(full_path)
 
                     if not make_thumb and not make_full: continue
+
 
                     try:
                         for orientation in ExifTags.TAGS.keys() :
@@ -68,14 +77,15 @@ def main():
 
                     if make_thumb:
                         thumb = resizeimage.resize_width(img, 400)
-                        thumb.save(day_path + '/_thumb_' + x, thumb.format)
+                        thumb.save(thumb_path, thumb.format)
 
                     if make_full:
                         try:
                             full = resizeimage.resize_height(img, 860)
                         except:
                             full = img
-                        full.save(day_path + '/_full_' + x, full.format)
+                        full.save(full_path, full.format)
+
 
                     fd_img.close()
                 elif filetype(x) is None:

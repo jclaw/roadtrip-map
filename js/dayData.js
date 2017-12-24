@@ -10,134 +10,134 @@ var DayData = [
             {
                 "filename": "A-IMG_0131.JPG",
                 "filetype": "photo",
-                "path": "img/day1/_full_A-IMG_0131.JPG",
-                "thumb": "img/day1/_thumb_A-IMG_0131.JPG"
+                "path": "img/day1/A-IMG_0131_full.JPG",
+                "thumb": "img/day1/A-IMG_0131_thumb.JPG"
             },
             {
                 "filename": "A-IMG_2529.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_A-IMG_2529.jpg",
-                "thumb": "img/day1/_thumb_A-IMG_2529.jpg"
+                "path": "img/day1/A-IMG_2529_full.jpg",
+                "thumb": "img/day1/A-IMG_2529_thumb.jpg"
             },
             {
                 "filename": "A-IMG_2530.jpeg",
                 "filetype": "photo",
-                "path": "img/day1/_full_A-IMG_2530.jpeg",
-                "thumb": "img/day1/_thumb_A-IMG_2530.jpeg"
+                "path": "img/day1/A-IMG_2530_full.jpeg",
+                "thumb": "img/day1/A-IMG_2530_thumb.jpeg"
             },
             {
                 "filename": "B-DSC_5035.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_B-DSC_5035.jpg",
-                "thumb": "img/day1/_thumb_B-DSC_5035.jpg"
+                "path": "img/day1/B-DSC_5035_full.jpg",
+                "thumb": "img/day1/B-DSC_5035_thumb.jpg"
             },
             {
                 "filename": "B-DSC_5046.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_B-DSC_5046.jpg",
-                "thumb": "img/day1/_thumb_B-DSC_5046.jpg"
+                "path": "img/day1/B-DSC_5046_full.jpg",
+                "thumb": "img/day1/B-DSC_5046_thumb.jpg"
             },
             {
                 "filename": "B-DSC_5053.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_B-DSC_5053.jpg",
-                "thumb": "img/day1/_thumb_B-DSC_5053.jpg"
+                "path": "img/day1/B-DSC_5053_full.jpg",
+                "thumb": "img/day1/B-DSC_5053_thumb.jpg"
             },
             {
                 "filename": "B-DSC_5055.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_B-DSC_5055.jpg",
-                "thumb": "img/day1/_thumb_B-DSC_5055.jpg"
+                "path": "img/day1/B-DSC_5055_full.jpg",
+                "thumb": "img/day1/B-DSC_5055_thumb.jpg"
             },
             {
                 "filename": "B-DSC_5057.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_B-DSC_5057.jpg",
-                "thumb": "img/day1/_thumb_B-DSC_5057.jpg"
+                "path": "img/day1/B-DSC_5057_full.jpg",
+                "thumb": "img/day1/B-DSC_5057_thumb.jpg"
             },
             {
                 "filename": "B-IMG_2517.jpeg",
                 "filetype": "photo",
-                "path": "img/day1/_full_B-IMG_2517.jpeg",
-                "thumb": "img/day1/_thumb_B-IMG_2517.jpeg"
+                "path": "img/day1/B-IMG_2517_full.jpeg",
+                "thumb": "img/day1/B-IMG_2517_thumb.jpeg"
             },
             {
-                "filename": "C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4.png",
+                "filename": "C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1Ysd4Q-z9NMzCq4wKORL9BNGKQkPRQnac/preview",
-                "thumb": "img/day1/_thumb_C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4.jpg"
+                "thumb": "img/day1/C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4_thumb.jpg"
             },
             {
                 "filename": "DSC_5070.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_DSC_5070.jpg",
-                "thumb": "img/day1/_thumb_DSC_5070.jpg"
+                "path": "img/day1/DSC_5070_full.jpg",
+                "thumb": "img/day1/DSC_5070_thumb.jpg"
             },
             {
                 "filename": "DSC_5073.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_DSC_5073.jpg",
-                "thumb": "img/day1/_thumb_DSC_5073.jpg"
+                "path": "img/day1/DSC_5073_full.jpg",
+                "thumb": "img/day1/DSC_5073_thumb.jpg"
             },
             {
                 "filename": "DSC_5078.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_DSC_5078.jpg",
-                "thumb": "img/day1/_thumb_DSC_5078.jpg"
+                "path": "img/day1/DSC_5078_full.jpg",
+                "thumb": "img/day1/DSC_5078_thumb.jpg"
             },
             {
                 "filename": "DSC_5082.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_DSC_5082.jpg",
-                "thumb": "img/day1/_thumb_DSC_5082.jpg"
+                "path": "img/day1/DSC_5082_full.jpg",
+                "thumb": "img/day1/DSC_5082_thumb.jpg"
             },
             {
                 "filename": "DSC_5086.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_DSC_5086.jpg",
-                "thumb": "img/day1/_thumb_DSC_5086.jpg"
+                "path": "img/day1/DSC_5086_full.jpg",
+                "thumb": "img/day1/DSC_5086_thumb.jpg"
             },
             {
                 "filename": "IMG_2523.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_IMG_2523.jpg",
-                "thumb": "img/day1/_thumb_IMG_2523.jpg"
+                "path": "img/day1/IMG_2523_full.jpg",
+                "thumb": "img/day1/IMG_2523_thumb.jpg"
             },
             {
                 "filename": "IMG_2523.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_IMG_2523.jpg",
-                "thumb": "img/day1/_thumb_IMG_2523.jpg"
+                "path": "img/day1/IMG_2523_full.jpg",
+                "thumb": "img/day1/IMG_2523_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5030.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_Y-DSC_5030.jpg",
-                "thumb": "img/day1/_thumb_Y-DSC_5030.jpg"
+                "path": "img/day1/Y-DSC_5030_full.jpg",
+                "thumb": "img/day1/Y-DSC_5030_thumb.jpg"
             },
             {
                 "filename": "Y-IMG_2525.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_Y-IMG_2525.jpg",
-                "thumb": "img/day1/_thumb_Y-IMG_2525.jpg"
+                "path": "img/day1/Y-IMG_2525_full.jpg",
+                "thumb": "img/day1/Y-IMG_2525_thumb.jpg"
             },
             {
                 "filename": "Y-IMG_6607.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_Y-IMG_6607.jpg",
-                "thumb": "img/day1/_thumb_Y-IMG_6607.jpg"
+                "path": "img/day1/Y-IMG_6607_full.jpg",
+                "thumb": "img/day1/Y-IMG_6607_thumb.jpg"
             },
             {
                 "filename": "Y-IMG_6607.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_Y-IMG_6607.jpg",
-                "thumb": "img/day1/_thumb_Y-IMG_6607.jpg"
+                "path": "img/day1/Y-IMG_6607_full.jpg",
+                "thumb": "img/day1/Y-IMG_6607_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_2527.jpg",
                 "filetype": "photo",
-                "path": "img/day1/_full_Z-IMG_2527.jpg",
-                "thumb": "img/day1/_thumb_Z-IMG_2527.jpg"
+                "path": "img/day1/Z-IMG_2527_full.jpg",
+                "thumb": "img/day1/Z-IMG_2527_thumb.jpg"
             }
         ],
         "start_address": "262 Chestnut St, San Francisco, CA 94133, USA"
@@ -153,44 +153,44 @@ var DayData = [
             {
                 "filename": "A-DSC_5110.jpg",
                 "filetype": "photo",
-                "path": "img/day2/_full_A-DSC_5110.jpg",
-                "thumb": "img/day2/_thumb_A-DSC_5110.jpg"
+                "path": "img/day2/A-DSC_5110_full.jpg",
+                "thumb": "img/day2/A-DSC_5110_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5111.jpg",
                 "filetype": "photo",
-                "path": "img/day2/_full_A-DSC_5111.jpg",
-                "thumb": "img/day2/_thumb_A-DSC_5111.jpg"
+                "path": "img/day2/A-DSC_5111_full.jpg",
+                "thumb": "img/day2/A-DSC_5111_thumb.jpg"
             },
             {
-                "filename": "A-IMG_6611.m4v.png",
+                "filename": "A-IMG_6611.m4v",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1cc2Swcbpi5thkmdgtwFrgQNV7_oF3tY3/preview",
-                "thumb": "img/day2/_thumb_A-IMG_6611.m4v.jpg"
+                "thumb": "img/day2/A-IMG_6611.m4v_thumb.jpg"
             },
             {
                 "filename": "C-IMG_0137.JPG",
                 "filetype": "photo",
-                "path": "img/day2/_full_C-IMG_0137.JPG",
-                "thumb": "img/day2/_thumb_C-IMG_0137.JPG"
+                "path": "img/day2/C-IMG_0137_full.JPG",
+                "thumb": "img/day2/C-IMG_0137_thumb.JPG"
             },
             {
                 "filename": "DSC_5105.jpg",
                 "filetype": "photo",
-                "path": "img/day2/_full_DSC_5105.jpg",
-                "thumb": "img/day2/_thumb_DSC_5105.jpg"
+                "path": "img/day2/DSC_5105_full.jpg",
+                "thumb": "img/day2/DSC_5105_thumb.jpg"
             },
             {
                 "filename": "DSC_5113.jpg",
                 "filetype": "photo",
-                "path": "img/day2/_full_DSC_5113.jpg",
-                "thumb": "img/day2/_thumb_DSC_5113.jpg"
+                "path": "img/day2/DSC_5113_full.jpg",
+                "thumb": "img/day2/DSC_5113_thumb.jpg"
             },
             {
                 "filename": "DSC_5118.jpg",
                 "filetype": "photo",
-                "path": "img/day2/_full_DSC_5118.jpg",
-                "thumb": "img/day2/_thumb_DSC_5118.jpg"
+                "path": "img/day2/DSC_5118_full.jpg",
+                "thumb": "img/day2/DSC_5118_thumb.jpg"
             }
         ],
         "start_address": "Nadelos Campground, Whitethorn, CA 95589, USA"
@@ -206,128 +206,128 @@ var DayData = [
             {
                 "filename": "A-DSC_5120.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5120.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5120.jpg"
+                "path": "img/day3/A-DSC_5120_full.jpg",
+                "thumb": "img/day3/A-DSC_5120_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5127.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5127.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5127.jpg"
+                "path": "img/day3/A-DSC_5127_full.jpg",
+                "thumb": "img/day3/A-DSC_5127_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5133.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5133.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5133.jpg"
+                "path": "img/day3/A-DSC_5133_full.jpg",
+                "thumb": "img/day3/A-DSC_5133_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5137.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5137.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5137.jpg"
+                "path": "img/day3/A-DSC_5137_full.jpg",
+                "thumb": "img/day3/A-DSC_5137_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5138.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5138.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5138.jpg"
+                "path": "img/day3/A-DSC_5138_full.jpg",
+                "thumb": "img/day3/A-DSC_5138_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5140.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5140.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5140.jpg"
+                "path": "img/day3/A-DSC_5140_full.jpg",
+                "thumb": "img/day3/A-DSC_5140_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5143.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5143.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5143.jpg"
+                "path": "img/day3/A-DSC_5143_full.jpg",
+                "thumb": "img/day3/A-DSC_5143_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5154.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5154.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5154.jpg"
+                "path": "img/day3/A-DSC_5154_full.jpg",
+                "thumb": "img/day3/A-DSC_5154_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5162.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_A-DSC_5162.jpg",
-                "thumb": "img/day3/_thumb_A-DSC_5162.jpg"
+                "path": "img/day3/A-DSC_5162_full.jpg",
+                "thumb": "img/day3/A-DSC_5162_thumb.jpg"
             },
             {
                 "filename": "DSC_5230.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_DSC_5230.jpg",
-                "thumb": "img/day3/_thumb_DSC_5230.jpg"
+                "path": "img/day3/DSC_5230_full.jpg",
+                "thumb": "img/day3/DSC_5230_thumb.jpg"
             },
             {
                 "filename": "W-DSC_5181.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_W-DSC_5181.jpg",
-                "thumb": "img/day3/_thumb_W-DSC_5181.jpg"
+                "path": "img/day3/W-DSC_5181_full.jpg",
+                "thumb": "img/day3/W-DSC_5181_thumb.jpg"
             },
             {
                 "filename": "W-DSC_5182.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_W-DSC_5182.jpg",
-                "thumb": "img/day3/_thumb_W-DSC_5182.jpg"
+                "path": "img/day3/W-DSC_5182_full.jpg",
+                "thumb": "img/day3/W-DSC_5182_thumb.jpg"
             },
             {
-                "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png",
+                "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview",
-                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.jpg"
+                "thumb": "img/day3/W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4_thumb.jpg"
             },
             {
-                "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.png",
+                "filename": "W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview",
-                "thumb": "img/day3/_thumb_W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4.jpg"
+                "thumb": "img/day3/W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4_thumb.jpg"
             },
             {
                 "filename": "X-IMG_6617.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_X-IMG_6617.jpg",
-                "thumb": "img/day3/_thumb_X-IMG_6617.jpg"
+                "path": "img/day3/X-IMG_6617_full.jpg",
+                "thumb": "img/day3/X-IMG_6617_thumb.jpg"
             },
             {
                 "filename": "X-IMG_6618.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_X-IMG_6618.jpg",
-                "thumb": "img/day3/_thumb_X-IMG_6618.jpg"
+                "path": "img/day3/X-IMG_6618_full.jpg",
+                "thumb": "img/day3/X-IMG_6618_thumb.jpg"
             },
             {
                 "filename": "X-IMG_6629.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_X-IMG_6629.jpg",
-                "thumb": "img/day3/_thumb_X-IMG_6629.jpg"
+                "path": "img/day3/X-IMG_6629_full.jpg",
+                "thumb": "img/day3/X-IMG_6629_thumb.jpg"
             },
             {
                 "filename": "X1-IMG_0773.JPG",
                 "filetype": "photo",
-                "path": "img/day3/_full_X1-IMG_0773.JPG",
-                "thumb": "img/day3/_thumb_X1-IMG_0773.JPG"
+                "path": "img/day3/X1-IMG_0773_full.JPG",
+                "thumb": "img/day3/X1-IMG_0773_thumb.JPG"
             },
             {
                 "filename": "Y-DSC_5199.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_Y-DSC_5199.jpg",
-                "thumb": "img/day3/_thumb_Y-DSC_5199.jpg"
+                "path": "img/day3/Y-DSC_5199_full.jpg",
+                "thumb": "img/day3/Y-DSC_5199_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5199.jpg",
                 "filetype": "photo",
-                "path": "img/day3/_full_Y-DSC_5199.jpg",
-                "thumb": "img/day3/_thumb_Y-DSC_5199.jpg"
+                "path": "img/day3/Y-DSC_5199_full.jpg",
+                "thumb": "img/day3/Y-DSC_5199_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_2537.JPG",
                 "filetype": "photo",
-                "path": "img/day3/_full_Z-IMG_2537.JPG",
-                "thumb": "img/day3/_thumb_Z-IMG_2537.JPG"
+                "path": "img/day3/Z-IMG_2537_full.JPG",
+                "thumb": "img/day3/Z-IMG_2537_thumb.JPG"
             }
         ],
         "start_address": "2875 SW Fairview Blvd, Portland, OR 97205, USA"
@@ -343,50 +343,50 @@ var DayData = [
             {
                 "filename": "DSC_5201.jpg",
                 "filetype": "photo",
-                "path": "img/day4/_full_DSC_5201.jpg",
-                "thumb": "img/day4/_thumb_DSC_5201.jpg"
+                "path": "img/day4/DSC_5201_full.jpg",
+                "thumb": "img/day4/DSC_5201_thumb.jpg"
             },
             {
                 "filename": "DSC_5223.jpg",
                 "filetype": "photo",
-                "path": "img/day4/_full_DSC_5223.jpg",
-                "thumb": "img/day4/_thumb_DSC_5223.jpg"
+                "path": "img/day4/DSC_5223_full.jpg",
+                "thumb": "img/day4/DSC_5223_thumb.jpg"
             },
             {
                 "filename": "DSC_5224.jpg",
                 "filetype": "photo",
-                "path": "img/day4/_full_DSC_5224.jpg",
-                "thumb": "img/day4/_thumb_DSC_5224.jpg"
+                "path": "img/day4/DSC_5224_full.jpg",
+                "thumb": "img/day4/DSC_5224_thumb.jpg"
             },
             {
                 "filename": "DSC_5226.jpg",
                 "filetype": "photo",
-                "path": "img/day4/_full_DSC_5226.jpg",
-                "thumb": "img/day4/_thumb_DSC_5226.jpg"
+                "path": "img/day4/DSC_5226_full.jpg",
+                "thumb": "img/day4/DSC_5226_thumb.jpg"
             },
             {
                 "filename": "IMG_0895.JPG",
                 "filetype": "photo",
-                "path": "img/day4/_full_IMG_0895.JPG",
-                "thumb": "img/day4/_thumb_IMG_0895.JPG"
+                "path": "img/day4/IMG_0895_full.JPG",
+                "thumb": "img/day4/IMG_0895_thumb.JPG"
             },
             {
                 "filename": "IMG_6635.jpg",
                 "filetype": "photo",
-                "path": "img/day4/_full_IMG_6635.jpg",
-                "thumb": "img/day4/_thumb_IMG_6635.jpg"
+                "path": "img/day4/IMG_6635_full.jpg",
+                "thumb": "img/day4/IMG_6635_thumb.jpg"
             },
             {
                 "filename": "Y-IMG_6633.jpg",
                 "filetype": "photo",
-                "path": "img/day4/_full_Y-IMG_6633.jpg",
-                "thumb": "img/day4/_thumb_Y-IMG_6633.jpg"
+                "path": "img/day4/Y-IMG_6633_full.jpg",
+                "thumb": "img/day4/Y-IMG_6633_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_2542.jpg",
                 "filetype": "photo",
-                "path": "img/day4/_full_Z-IMG_2542.jpg",
-                "thumb": "img/day4/_thumb_Z-IMG_2542.jpg"
+                "path": "img/day4/Z-IMG_2542_full.jpg",
+                "thumb": "img/day4/Z-IMG_2542_thumb.jpg"
             }
         ],
         "start_address": "791 Pandora Ave, Victoria, BC V8W 1N9, Canada"
@@ -402,92 +402,92 @@ var DayData = [
             {
                 "filename": "A-IMG_2547.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_A-IMG_2547.jpg",
-                "thumb": "img/day5/_thumb_A-IMG_2547.jpg"
+                "path": "img/day5/A-IMG_2547_full.jpg",
+                "thumb": "img/day5/A-IMG_2547_thumb.jpg"
             },
             {
                 "filename": "A-IMG_2549.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_A-IMG_2549.jpg",
-                "thumb": "img/day5/_thumb_A-IMG_2549.jpg"
+                "path": "img/day5/A-IMG_2549_full.jpg",
+                "thumb": "img/day5/A-IMG_2549_thumb.jpg"
             },
             {
                 "filename": "DSC_5246.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_DSC_5246.jpg",
-                "thumb": "img/day5/_thumb_DSC_5246.jpg"
+                "path": "img/day5/DSC_5246_full.jpg",
+                "thumb": "img/day5/DSC_5246_thumb.jpg"
             },
             {
                 "filename": "DSC_5252.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_DSC_5252.jpg",
-                "thumb": "img/day5/_thumb_DSC_5252.jpg"
+                "path": "img/day5/DSC_5252_full.jpg",
+                "thumb": "img/day5/DSC_5252_thumb.jpg"
             },
             {
                 "filename": "DSC_5310.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_DSC_5310.jpg",
-                "thumb": "img/day5/_thumb_DSC_5310.jpg"
+                "path": "img/day5/DSC_5310_full.jpg",
+                "thumb": "img/day5/DSC_5310_thumb.jpg"
             },
             {
                 "filename": "DSC_5312.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_DSC_5312.jpg",
-                "thumb": "img/day5/_thumb_DSC_5312.jpg"
+                "path": "img/day5/DSC_5312_full.jpg",
+                "thumb": "img/day5/DSC_5312_thumb.jpg"
             },
             {
                 "filename": "DSC_5349.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_DSC_5349.jpg",
-                "thumb": "img/day5/_thumb_DSC_5349.jpg"
+                "path": "img/day5/DSC_5349_full.jpg",
+                "thumb": "img/day5/DSC_5349_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5238.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_G-DSC_5238.jpg",
-                "thumb": "img/day5/_thumb_G-DSC_5238.jpg"
+                "path": "img/day5/G-DSC_5238_full.jpg",
+                "thumb": "img/day5/G-DSC_5238_thumb.jpg"
             },
             {
-                "filename": "G-IMG_0162.MOV.png",
+                "filename": "G-IMG_0162.MOV",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1hXE4MYrphPVyAIkjWuhXvKDQbNmVroez/preview",
-                "thumb": "img/day5/_thumb_G-IMG_0162.MOV.jpg"
+                "thumb": "img/day5/G-IMG_0162.MOV_thumb.jpg"
             },
             {
                 "filename": "IMG_6641.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_IMG_6641.jpg",
-                "thumb": "img/day5/_thumb_IMG_6641.jpg"
+                "path": "img/day5/IMG_6641_full.jpg",
+                "thumb": "img/day5/IMG_6641_thumb.jpg"
             },
             {
                 "filename": "IMG_6649.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_IMG_6649.jpg",
-                "thumb": "img/day5/_thumb_IMG_6649.jpg"
+                "path": "img/day5/IMG_6649_full.jpg",
+                "thumb": "img/day5/IMG_6649_thumb.jpg"
             },
             {
                 "filename": "IMG_6688.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_IMG_6688.jpg",
-                "thumb": "img/day5/_thumb_IMG_6688.jpg"
+                "path": "img/day5/IMG_6688_full.jpg",
+                "thumb": "img/day5/IMG_6688_thumb.jpg"
             },
             {
-                "filename": "ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4.png",
+                "filename": "ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1JDvEk5rJC5tgYiKO9GPNTMXB69fcwWDH/preview",
-                "thumb": "img/day5/_thumb_ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4.jpg"
+                "thumb": "img/day5/ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_2557.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_Z-IMG_2557.jpg",
-                "thumb": "img/day5/_thumb_Z-IMG_2557.jpg"
+                "path": "img/day5/Z-IMG_2557_full.jpg",
+                "thumb": "img/day5/Z-IMG_2557_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_6652.jpg",
                 "filetype": "photo",
-                "path": "img/day5/_full_Z-IMG_6652.jpg",
-                "thumb": "img/day5/_thumb_Z-IMG_6652.jpg"
+                "path": "img/day5/Z-IMG_6652_full.jpg",
+                "thumb": "img/day5/Z-IMG_6652_thumb.jpg"
             }
         ],
         "start_address": "8201 Greenwood Ave N, Seattle, WA 98103, USA"
@@ -503,290 +503,290 @@ var DayData = [
             {
                 "filename": "A-DSC_5257.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_A-DSC_5257.jpg",
-                "thumb": "img/day6/_thumb_A-DSC_5257.jpg"
+                "path": "img/day6/A-DSC_5257_full.jpg",
+                "thumb": "img/day6/A-DSC_5257_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5265.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_A-DSC_5265.jpg",
-                "thumb": "img/day6/_thumb_A-DSC_5265.jpg"
+                "path": "img/day6/A-DSC_5265_full.jpg",
+                "thumb": "img/day6/A-DSC_5265_thumb.jpg"
             },
             {
                 "filename": "A-DSC_5289.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_A-DSC_5289.jpg",
-                "thumb": "img/day6/_thumb_A-DSC_5289.jpg"
+                "path": "img/day6/A-DSC_5289_full.jpg",
+                "thumb": "img/day6/A-DSC_5289_thumb.jpg"
             },
             {
                 "filename": "B-DSC_5336.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_B-DSC_5336.jpg",
-                "thumb": "img/day6/_thumb_B-DSC_5336.jpg"
+                "path": "img/day6/B-DSC_5336_full.jpg",
+                "thumb": "img/day6/B-DSC_5336_thumb.jpg"
             },
             {
                 "filename": "B-DSC_5337.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_B-DSC_5337.jpg",
-                "thumb": "img/day6/_thumb_B-DSC_5337.jpg"
+                "path": "img/day6/B-DSC_5337_full.jpg",
+                "thumb": "img/day6/B-DSC_5337_thumb.jpg"
             },
             {
                 "filename": "B-IMG_0807.JPG",
                 "filetype": "photo",
-                "path": "img/day6/_full_B-IMG_0807.JPG",
-                "thumb": "img/day6/_thumb_B-IMG_0807.JPG"
+                "path": "img/day6/B-IMG_0807_full.JPG",
+                "thumb": "img/day6/B-IMG_0807_thumb.JPG"
             },
             {
                 "filename": "C-DSC_5317.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_C-DSC_5317.jpg",
-                "thumb": "img/day6/_thumb_C-DSC_5317.jpg"
+                "path": "img/day6/C-DSC_5317_full.jpg",
+                "thumb": "img/day6/C-DSC_5317_thumb.jpg"
             },
             {
                 "filename": "C-IMG_0813.JPG",
                 "filetype": "photo",
-                "path": "img/day6/_full_C-IMG_0813.JPG",
-                "thumb": "img/day6/_thumb_C-IMG_0813.JPG"
+                "path": "img/day6/C-IMG_0813_full.JPG",
+                "thumb": "img/day6/C-IMG_0813_thumb.JPG"
             },
             {
                 "filename": "C-IMG_2559.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_C-IMG_2559.jpg",
-                "thumb": "img/day6/_thumb_C-IMG_2559.jpg"
+                "path": "img/day6/C-IMG_2559_full.jpg",
+                "thumb": "img/day6/C-IMG_2559_thumb.jpg"
             },
             {
                 "filename": "C-IMG_2561.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_C-IMG_2561.jpg",
-                "thumb": "img/day6/_thumb_C-IMG_2561.jpg"
+                "path": "img/day6/C-IMG_2561_full.jpg",
+                "thumb": "img/day6/C-IMG_2561_thumb.jpg"
             },
             {
                 "filename": "D-DSC_5384.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_D-DSC_5384.jpg",
-                "thumb": "img/day6/_thumb_D-DSC_5384.jpg"
+                "path": "img/day6/D-DSC_5384_full.jpg",
+                "thumb": "img/day6/D-DSC_5384_thumb.jpg"
             },
             {
                 "filename": "D-IMG_0822.JPG",
                 "filetype": "photo",
-                "path": "img/day6/_full_D-IMG_0822.JPG",
-                "thumb": "img/day6/_thumb_D-IMG_0822.JPG"
+                "path": "img/day6/D-IMG_0822_full.JPG",
+                "thumb": "img/day6/D-IMG_0822_thumb.JPG"
             },
             {
                 "filename": "D1-DSC_5467.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_D1-DSC_5467.jpg",
-                "thumb": "img/day6/_thumb_D1-DSC_5467.jpg"
+                "path": "img/day6/D1-DSC_5467_full.jpg",
+                "thumb": "img/day6/D1-DSC_5467_thumb.jpg"
             },
             {
-                "filename": "D1-IMG_0661.MOV.png",
+                "filename": "D1-IMG_0661.MOV",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1ohjVmtlVaD4rwHXpsYDzLAWcIUuS_ZjA/preview",
-                "thumb": "img/day6/_thumb_D1-IMG_0661.MOV.jpg"
+                "thumb": "img/day6/D1-IMG_0661.MOV_thumb.jpg"
             },
             {
                 "filename": "DSC_5343.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5343.jpg",
-                "thumb": "img/day6/_thumb_DSC_5343.jpg"
+                "path": "img/day6/DSC_5343_full.jpg",
+                "thumb": "img/day6/DSC_5343_thumb.jpg"
             },
             {
                 "filename": "DSC_5371.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5371.jpg",
-                "thumb": "img/day6/_thumb_DSC_5371.jpg"
+                "path": "img/day6/DSC_5371_full.jpg",
+                "thumb": "img/day6/DSC_5371_thumb.jpg"
             },
             {
                 "filename": "DSC_5389.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5389.jpg",
-                "thumb": "img/day6/_thumb_DSC_5389.jpg"
+                "path": "img/day6/DSC_5389_full.jpg",
+                "thumb": "img/day6/DSC_5389_thumb.jpg"
             },
             {
                 "filename": "DSC_5393.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5393.jpg",
-                "thumb": "img/day6/_thumb_DSC_5393.jpg"
+                "path": "img/day6/DSC_5393_full.jpg",
+                "thumb": "img/day6/DSC_5393_thumb.jpg"
             },
             {
                 "filename": "DSC_5395.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5395.jpg",
-                "thumb": "img/day6/_thumb_DSC_5395.jpg"
+                "path": "img/day6/DSC_5395_full.jpg",
+                "thumb": "img/day6/DSC_5395_thumb.jpg"
             },
             {
                 "filename": "DSC_5405.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5405.jpg",
-                "thumb": "img/day6/_thumb_DSC_5405.jpg"
+                "path": "img/day6/DSC_5405_full.jpg",
+                "thumb": "img/day6/DSC_5405_thumb.jpg"
             },
             {
                 "filename": "DSC_5415.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5415.jpg",
-                "thumb": "img/day6/_thumb_DSC_5415.jpg"
+                "path": "img/day6/DSC_5415_full.jpg",
+                "thumb": "img/day6/DSC_5415_thumb.jpg"
             },
             {
                 "filename": "DSC_5428.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5428.jpg",
-                "thumb": "img/day6/_thumb_DSC_5428.jpg"
+                "path": "img/day6/DSC_5428_full.jpg",
+                "thumb": "img/day6/DSC_5428_thumb.jpg"
             },
             {
                 "filename": "DSC_5435.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5435.jpg",
-                "thumb": "img/day6/_thumb_DSC_5435.jpg"
+                "path": "img/day6/DSC_5435_full.jpg",
+                "thumb": "img/day6/DSC_5435_thumb.jpg"
             },
             {
                 "filename": "DSC_5439.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5439.jpg",
-                "thumb": "img/day6/_thumb_DSC_5439.jpg"
+                "path": "img/day6/DSC_5439_full.jpg",
+                "thumb": "img/day6/DSC_5439_thumb.jpg"
             },
             {
                 "filename": "DSC_5443.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5443.jpg",
-                "thumb": "img/day6/_thumb_DSC_5443.jpg"
+                "path": "img/day6/DSC_5443_full.jpg",
+                "thumb": "img/day6/DSC_5443_thumb.jpg"
             },
             {
                 "filename": "DSC_5449.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5449.jpg",
-                "thumb": "img/day6/_thumb_DSC_5449.jpg"
+                "path": "img/day6/DSC_5449_full.jpg",
+                "thumb": "img/day6/DSC_5449_thumb.jpg"
             },
             {
                 "filename": "DSC_5453.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_DSC_5453.jpg",
-                "thumb": "img/day6/_thumb_DSC_5453.jpg"
+                "path": "img/day6/DSC_5453_full.jpg",
+                "thumb": "img/day6/DSC_5453_thumb.jpg"
             },
             {
-                "filename": "IMG_2596.mov.png",
+                "filename": "IMG_2596.mov",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1rZ9N9vWNWdCO-zHiCsSOo85FsaaEYYpk/preview",
-                "thumb": "img/day6/_thumb_IMG_2596.mov.jpg"
+                "thumb": "img/day6/IMG_2596.mov_thumb.jpg"
             },
             {
                 "filename": "J-DSC_5463.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_J-DSC_5463.jpg",
-                "thumb": "img/day6/_thumb_J-DSC_5463.jpg"
+                "path": "img/day6/J-DSC_5463_full.jpg",
+                "thumb": "img/day6/J-DSC_5463_thumb.jpg"
             },
             {
                 "filename": "X-DSC_5474.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_X-DSC_5474.jpg",
-                "thumb": "img/day6/_thumb_X-DSC_5474.jpg"
+                "path": "img/day6/X-DSC_5474_full.jpg",
+                "thumb": "img/day6/X-DSC_5474_thumb.jpg"
             },
             {
                 "filename": "X-DSC_5477.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_X-DSC_5477.jpg",
-                "thumb": "img/day6/_thumb_X-DSC_5477.jpg"
+                "path": "img/day6/X-DSC_5477_full.jpg",
+                "thumb": "img/day6/X-DSC_5477_thumb.jpg"
             },
             {
                 "filename": "X-DSC_5480.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_X-DSC_5480.jpg",
-                "thumb": "img/day6/_thumb_X-DSC_5480.jpg"
+                "path": "img/day6/X-DSC_5480_full.jpg",
+                "thumb": "img/day6/X-DSC_5480_thumb.jpg"
             },
             {
                 "filename": "X-DSC_5487.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_X-DSC_5487.jpg",
-                "thumb": "img/day6/_thumb_X-DSC_5487.jpg"
+                "path": "img/day6/X-DSC_5487_full.jpg",
+                "thumb": "img/day6/X-DSC_5487_thumb.jpg"
             },
             {
                 "filename": "X-IMG_6655.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_X-IMG_6655.jpg",
-                "thumb": "img/day6/_thumb_X-IMG_6655.jpg"
+                "path": "img/day6/X-IMG_6655_full.jpg",
+                "thumb": "img/day6/X-IMG_6655_thumb.jpg"
             },
             {
                 "filename": "X1-DSC_5537.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_X1-DSC_5537.jpg",
-                "thumb": "img/day6/_thumb_X1-DSC_5537.jpg"
+                "path": "img/day6/X1-DSC_5537_full.jpg",
+                "thumb": "img/day6/X1-DSC_5537_thumb.jpg"
             },
             {
                 "filename": "X1-IMG_2612.JPEG",
                 "filetype": "photo",
-                "path": "img/day6/_full_X1-IMG_2612.JPEG",
-                "thumb": "img/day6/_thumb_X1-IMG_2612.JPEG"
+                "path": "img/day6/X1-IMG_2612_full.JPEG",
+                "thumb": "img/day6/X1-IMG_2612_thumb.JPEG"
             },
             {
                 "filename": "Y-DSC_5508.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_Y-DSC_5508.jpg",
-                "thumb": "img/day6/_thumb_Y-DSC_5508.jpg"
+                "path": "img/day6/Y-DSC_5508_full.jpg",
+                "thumb": "img/day6/Y-DSC_5508_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5513.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_Y-DSC_5513.jpg",
-                "thumb": "img/day6/_thumb_Y-DSC_5513.jpg"
+                "path": "img/day6/Y-DSC_5513_full.jpg",
+                "thumb": "img/day6/Y-DSC_5513_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5526.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_Y-DSC_5526.jpg",
-                "thumb": "img/day6/_thumb_Y-DSC_5526.jpg"
+                "path": "img/day6/Y-DSC_5526_full.jpg",
+                "thumb": "img/day6/Y-DSC_5526_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5531.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_Y-DSC_5531.jpg",
-                "thumb": "img/day6/_thumb_Y-DSC_5531.jpg"
+                "path": "img/day6/Y-DSC_5531_full.jpg",
+                "thumb": "img/day6/Y-DSC_5531_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5532.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_Y-DSC_5532.jpg",
-                "thumb": "img/day6/_thumb_Y-DSC_5532.jpg"
+                "path": "img/day6/Y-DSC_5532_full.jpg",
+                "thumb": "img/day6/Y-DSC_5532_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5535.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_Y-DSC_5535.jpg",
-                "thumb": "img/day6/_thumb_Y-DSC_5535.jpg"
+                "path": "img/day6/Y-DSC_5535_full.jpg",
+                "thumb": "img/day6/Y-DSC_5535_thumb.jpg"
             },
             {
-                "filename": "Y-IMG_2616.m4v.png",
+                "filename": "Y-IMG_2616.m4v",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1SoMMdz30veigrbVOnplDAqPuMiDlh7p_/preview",
-                "thumb": "img/day6/_thumb_Y-IMG_2616.m4v.jpg"
+                "thumb": "img/day6/Y-IMG_2616.m4v_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_0178.JPG",
                 "filetype": "photo",
-                "path": "img/day6/_full_Z-IMG_0178.JPG",
-                "thumb": "img/day6/_thumb_Z-IMG_0178.JPG"
+                "path": "img/day6/Z-IMG_0178_full.JPG",
+                "thumb": "img/day6/Z-IMG_0178_thumb.JPG"
             },
             {
                 "filename": "Z1-IMG_6656.jpg",
                 "filetype": "photo",
-                "path": "img/day6/_full_Z1-IMG_6656.jpg",
-                "thumb": "img/day6/_thumb_Z1-IMG_6656.jpg"
+                "path": "img/day6/Z1-IMG_6656_full.jpg",
+                "thumb": "img/day6/Z1-IMG_6656_thumb.jpg"
             },
             {
-                "filename": "Z1-IMG_6658.m4v.png",
+                "filename": "Z1-IMG_6658.m4v",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview",
-                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.jpg"
+                "thumb": "img/day6/Z1-IMG_6658.m4v_thumb.jpg"
             },
             {
-                "filename": "Z1-IMG_6658.m4v.png",
+                "filename": "Z1-IMG_6658.m4v",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1-0tft0ZjiO7TSfFPRPFjYuvSSUNcoceN/preview",
-                "thumb": "img/day6/_thumb_Z1-IMG_6658.m4v.jpg"
+                "thumb": "img/day6/Z1-IMG_6658.m4v_thumb.jpg"
             },
             {
-                "filename": "Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4.png",
+                "filename": "Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1d6YRJxpNZcvzySWm9BovgFseJiUN119u/preview",
-                "thumb": "img/day6/_thumb_Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4.jpg"
+                "thumb": "img/day6/Z2-sstg-D7DC54D4-B25C-4959-917F-C17F8E1EE3BC.mp4_thumb.jpg"
             }
         ],
         "start_address": "Bozeman, MT, USA"
@@ -802,230 +802,230 @@ var DayData = [
             {
                 "filename": "DSC_5548.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_DSC_5548.jpg",
-                "thumb": "img/day7/_thumb_DSC_5548.jpg"
+                "path": "img/day7/DSC_5548_full.jpg",
+                "thumb": "img/day7/DSC_5548_thumb.jpg"
             },
             {
                 "filename": "DSC_5549.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_DSC_5549.jpg",
-                "thumb": "img/day7/_thumb_DSC_5549.jpg"
+                "path": "img/day7/DSC_5549_full.jpg",
+                "thumb": "img/day7/DSC_5549_thumb.jpg"
             },
             {
                 "filename": "DSC_5552.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_DSC_5552.jpg",
-                "thumb": "img/day7/_thumb_DSC_5552.jpg"
+                "path": "img/day7/DSC_5552_full.jpg",
+                "thumb": "img/day7/DSC_5552_thumb.jpg"
             },
             {
                 "filename": "DSC_5555.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_DSC_5555.jpg",
-                "thumb": "img/day7/_thumb_DSC_5555.jpg"
+                "path": "img/day7/DSC_5555_full.jpg",
+                "thumb": "img/day7/DSC_5555_thumb.jpg"
             },
             {
                 "filename": "DSC_5556.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_DSC_5556.jpg",
-                "thumb": "img/day7/_thumb_DSC_5556.jpg"
+                "path": "img/day7/DSC_5556_full.jpg",
+                "thumb": "img/day7/DSC_5556_thumb.jpg"
             },
             {
                 "filename": "DSC_5558.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_DSC_5558.jpg",
-                "thumb": "img/day7/_thumb_DSC_5558.jpg"
+                "path": "img/day7/DSC_5558_full.jpg",
+                "thumb": "img/day7/DSC_5558_thumb.jpg"
             },
             {
-                "filename": "DSC_5560.mp4.png",
+                "filename": "DSC_5560.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/17U0rvivWafrGI14uFOHivY_h66H_pYlo/preview",
-                "thumb": "img/day7/_thumb_DSC_5560.mp4.jpg"
+                "thumb": "img/day7/DSC_5560.mp4_thumb.jpg"
             },
             {
-                "filename": "E-D-IMG_2622.m4v.png",
+                "filename": "E-D-IMG_2622.m4v",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/119_cV5IXRzUOlpBaSg34lj-J7LelaaoF/preview",
-                "thumb": "img/day7/_thumb_E-D-IMG_2622.m4v.jpg"
+                "thumb": "img/day7/E-D-IMG_2622.m4v_thumb.jpg"
             },
             {
                 "filename": "E-D-IMG_6660.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_E-D-IMG_6660.jpg",
-                "thumb": "img/day7/_thumb_E-D-IMG_6660.jpg"
+                "path": "img/day7/E-D-IMG_6660_full.jpg",
+                "thumb": "img/day7/E-D-IMG_6660_thumb.jpg"
             },
             {
                 "filename": "E-D-IMG_6660.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_E-D-IMG_6660.jpg",
-                "thumb": "img/day7/_thumb_E-D-IMG_6660.jpg"
+                "path": "img/day7/E-D-IMG_6660_full.jpg",
+                "thumb": "img/day7/E-D-IMG_6660_thumb.jpg"
             },
             {
                 "filename": "E-DSC_5561.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_E-DSC_5561.jpg",
-                "thumb": "img/day7/_thumb_E-DSC_5561.jpg"
+                "path": "img/day7/E-DSC_5561_full.jpg",
+                "thumb": "img/day7/E-DSC_5561_thumb.jpg"
             },
             {
                 "filename": "E-DSC_5563.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_E-DSC_5563.jpg",
-                "thumb": "img/day7/_thumb_E-DSC_5563.jpg"
+                "path": "img/day7/E-DSC_5563_full.jpg",
+                "thumb": "img/day7/E-DSC_5563_thumb.jpg"
             },
             {
                 "filename": "E-DSC_5573.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_E-DSC_5573.jpg",
-                "thumb": "img/day7/_thumb_E-DSC_5573.jpg"
+                "path": "img/day7/E-DSC_5573_full.jpg",
+                "thumb": "img/day7/E-DSC_5573_thumb.jpg"
             },
             {
                 "filename": "E-IMG_6662.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_E-IMG_6662.jpg",
-                "thumb": "img/day7/_thumb_E-IMG_6662.jpg"
+                "path": "img/day7/E-IMG_6662_full.jpg",
+                "thumb": "img/day7/E-IMG_6662_thumb.jpg"
             },
             {
                 "filename": "E-IMG_6663.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_E-IMG_6663.jpg",
-                "thumb": "img/day7/_thumb_E-IMG_6663.jpg"
+                "path": "img/day7/E-IMG_6663_full.jpg",
+                "thumb": "img/day7/E-IMG_6663_thumb.jpg"
             },
             {
                 "filename": "F-DSC_5574.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_F-DSC_5574.jpg",
-                "thumb": "img/day7/_thumb_F-DSC_5574.jpg"
+                "path": "img/day7/F-DSC_5574_full.jpg",
+                "thumb": "img/day7/F-DSC_5574_thumb.jpg"
             },
             {
                 "filename": "F-DSC_5578.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_F-DSC_5578.jpg",
-                "thumb": "img/day7/_thumb_F-DSC_5578.jpg"
+                "path": "img/day7/F-DSC_5578_full.jpg",
+                "thumb": "img/day7/F-DSC_5578_thumb.jpg"
             },
             {
                 "filename": "F-IMG_6667.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_F-IMG_6667.jpg",
-                "thumb": "img/day7/_thumb_F-IMG_6667.jpg"
+                "path": "img/day7/F-IMG_6667_full.jpg",
+                "thumb": "img/day7/F-IMG_6667_thumb.jpg"
             },
             {
                 "filename": "F-IMG_6668.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_F-IMG_6668.jpg",
-                "thumb": "img/day7/_thumb_F-IMG_6668.jpg"
+                "path": "img/day7/F-IMG_6668_full.jpg",
+                "thumb": "img/day7/F-IMG_6668_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5591.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5591.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5591.jpg"
+                "path": "img/day7/G-DSC_5591_full.jpg",
+                "thumb": "img/day7/G-DSC_5591_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5593.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5593.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5593.jpg"
+                "path": "img/day7/G-DSC_5593_full.jpg",
+                "thumb": "img/day7/G-DSC_5593_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5594.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5594.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5594.jpg"
+                "path": "img/day7/G-DSC_5594_full.jpg",
+                "thumb": "img/day7/G-DSC_5594_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5606.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5606.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5606.jpg"
+                "path": "img/day7/G-DSC_5606_full.jpg",
+                "thumb": "img/day7/G-DSC_5606_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5607.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5607.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5607.jpg"
+                "path": "img/day7/G-DSC_5607_full.jpg",
+                "thumb": "img/day7/G-DSC_5607_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5618.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5618.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5618.jpg"
+                "path": "img/day7/G-DSC_5618_full.jpg",
+                "thumb": "img/day7/G-DSC_5618_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5633.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5633.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5633.jpg"
+                "path": "img/day7/G-DSC_5633_full.jpg",
+                "thumb": "img/day7/G-DSC_5633_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5635.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5635.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5635.jpg"
+                "path": "img/day7/G-DSC_5635_full.jpg",
+                "thumb": "img/day7/G-DSC_5635_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5652-2.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5652-2.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5652-2.jpg"
+                "path": "img/day7/G-DSC_5652-2_full.jpg",
+                "thumb": "img/day7/G-DSC_5652-2_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5659.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5659.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5659.jpg"
+                "path": "img/day7/G-DSC_5659_full.jpg",
+                "thumb": "img/day7/G-DSC_5659_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5674.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5674.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5674.jpg"
+                "path": "img/day7/G-DSC_5674_full.jpg",
+                "thumb": "img/day7/G-DSC_5674_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5678.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_G-DSC_5678.jpg",
-                "thumb": "img/day7/_thumb_G-DSC_5678.jpg"
+                "path": "img/day7/G-DSC_5678_full.jpg",
+                "thumb": "img/day7/G-DSC_5678_thumb.jpg"
             },
             {
                 "filename": "IMG_0938.JPG",
                 "filetype": "photo",
-                "path": "img/day7/_full_IMG_0938.JPG",
-                "thumb": "img/day7/_thumb_IMG_0938.JPG"
+                "path": "img/day7/IMG_0938_full.JPG",
+                "thumb": "img/day7/IMG_0938_thumb.JPG"
             },
             {
                 "filename": "IMG_2635.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_IMG_2635.jpg",
-                "thumb": "img/day7/_thumb_IMG_2635.jpg"
+                "path": "img/day7/IMG_2635_full.jpg",
+                "thumb": "img/day7/IMG_2635_thumb.jpg"
             },
             {
                 "filename": "IMG_2644.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_IMG_2644.jpg",
-                "thumb": "img/day7/_thumb_IMG_2644.jpg"
+                "path": "img/day7/IMG_2644_full.jpg",
+                "thumb": "img/day7/IMG_2644_thumb.jpg"
             },
             {
-                "filename": "Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4.png",
+                "filename": "Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1hy-nRWUy_v0nN7Zrapbk3kuRvgO-lPD9/preview",
-                "thumb": "img/day7/_thumb_Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4.jpg"
+                "thumb": "img/day7/Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_0512.jpg",
                 "filetype": "photo",
-                "path": "img/day7/_full_Z-IMG_0512.jpg",
-                "thumb": "img/day7/_thumb_Z-IMG_0512.jpg"
+                "path": "img/day7/Z-IMG_0512_full.jpg",
+                "thumb": "img/day7/Z-IMG_0512_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_0869.JPG",
                 "filetype": "photo",
-                "path": "img/day7/_full_Z-IMG_0869.JPG",
-                "thumb": "img/day7/_thumb_Z-IMG_0869.JPG"
+                "path": "img/day7/Z-IMG_0869_full.JPG",
+                "thumb": "img/day7/Z-IMG_0869_thumb.JPG"
             },
             {
-                "filename": "Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4.png",
+                "filename": "Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/10vKx2nsv9yiOVPhQfTnBa5a19E9QHrX7/preview",
-                "thumb": "img/day7/_thumb_Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4.jpg"
+                "thumb": "img/day7/Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4_thumb.jpg"
             }
         ],
         "start_address": "7527 N 1000 E, Tetonia, ID 83452, USA"
@@ -1041,104 +1041,104 @@ var DayData = [
             {
                 "filename": "A-IMG_6674.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_A-IMG_6674.jpg",
-                "thumb": "img/day8/_thumb_A-IMG_6674.jpg"
+                "path": "img/day8/A-IMG_6674_full.jpg",
+                "thumb": "img/day8/A-IMG_6674_thumb.jpg"
             },
             {
                 "filename": "A-IMG_6675.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_A-IMG_6675.jpg",
-                "thumb": "img/day8/_thumb_A-IMG_6675.jpg"
+                "path": "img/day8/A-IMG_6675_full.jpg",
+                "thumb": "img/day8/A-IMG_6675_thumb.jpg"
             },
             {
                 "filename": "B-IMG_6678.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_B-IMG_6678.jpg",
-                "thumb": "img/day8/_thumb_B-IMG_6678.jpg"
+                "path": "img/day8/B-IMG_6678_full.jpg",
+                "thumb": "img/day8/B-IMG_6678_thumb.jpg"
             },
             {
                 "filename": "C-IMG_2652.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_C-IMG_2652.jpg",
-                "thumb": "img/day8/_thumb_C-IMG_2652.jpg"
+                "path": "img/day8/C-IMG_2652_full.jpg",
+                "thumb": "img/day8/C-IMG_2652_thumb.jpg"
             },
             {
                 "filename": "IMG_2650.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_IMG_2650.jpg",
-                "thumb": "img/day8/_thumb_IMG_2650.jpg"
+                "path": "img/day8/IMG_2650_full.jpg",
+                "thumb": "img/day8/IMG_2650_thumb.jpg"
             },
             {
                 "filename": "IMG_6677.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_IMG_6677.jpg",
-                "thumb": "img/day8/_thumb_IMG_6677.jpg"
+                "path": "img/day8/IMG_6677_full.jpg",
+                "thumb": "img/day8/IMG_6677_thumb.jpg"
             },
             {
                 "filename": "IMG_6686.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_IMG_6686.jpg",
-                "thumb": "img/day8/_thumb_IMG_6686.jpg"
+                "path": "img/day8/IMG_6686_full.jpg",
+                "thumb": "img/day8/IMG_6686_thumb.jpg"
             },
             {
                 "filename": "X-DSC_5705.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_X-DSC_5705.jpg",
-                "thumb": "img/day8/_thumb_X-DSC_5705.jpg"
+                "path": "img/day8/X-DSC_5705_full.jpg",
+                "thumb": "img/day8/X-DSC_5705_thumb.jpg"
             },
             {
                 "filename": "X-DSC_5714.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_X-DSC_5714.jpg",
-                "thumb": "img/day8/_thumb_X-DSC_5714.jpg"
+                "path": "img/day8/X-DSC_5714_full.jpg",
+                "thumb": "img/day8/X-DSC_5714_thumb.jpg"
             },
             {
                 "filename": "X-IMG_0206.JPG",
                 "filetype": "photo",
-                "path": "img/day8/_full_X-IMG_0206.JPG",
-                "thumb": "img/day8/_thumb_X-IMG_0206.JPG"
+                "path": "img/day8/X-IMG_0206_full.JPG",
+                "thumb": "img/day8/X-IMG_0206_thumb.JPG"
             },
             {
                 "filename": "X-IMG_0212.JPG",
                 "filetype": "photo",
-                "path": "img/day8/_full_X-IMG_0212.JPG",
-                "thumb": "img/day8/_thumb_X-IMG_0212.JPG"
+                "path": "img/day8/X-IMG_0212_full.JPG",
+                "thumb": "img/day8/X-IMG_0212_thumb.JPG"
             },
             {
                 "filename": "X-IMG_0214.JPG",
                 "filetype": "photo",
-                "path": "img/day8/_full_X-IMG_0214.JPG",
-                "thumb": "img/day8/_thumb_X-IMG_0214.JPG"
+                "path": "img/day8/X-IMG_0214_full.JPG",
+                "thumb": "img/day8/X-IMG_0214_thumb.JPG"
             },
             {
                 "filename": "X-IMG_6692.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_X-IMG_6692.jpg",
-                "thumb": "img/day8/_thumb_X-IMG_6692.jpg"
+                "path": "img/day8/X-IMG_6692_full.jpg",
+                "thumb": "img/day8/X-IMG_6692_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5717.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_Y-DSC_5717.jpg",
-                "thumb": "img/day8/_thumb_Y-DSC_5717.jpg"
+                "path": "img/day8/Y-DSC_5717_full.jpg",
+                "thumb": "img/day8/Y-DSC_5717_thumb.jpg"
             },
             {
                 "filename": "Y-DSC_5718.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_Y-DSC_5718.jpg",
-                "thumb": "img/day8/_thumb_Y-DSC_5718.jpg"
+                "path": "img/day8/Y-DSC_5718_full.jpg",
+                "thumb": "img/day8/Y-DSC_5718_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_2691.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_Z-IMG_2691.jpg",
-                "thumb": "img/day8/_thumb_Z-IMG_2691.jpg"
+                "path": "img/day8/Z-IMG_2691_full.jpg",
+                "thumb": "img/day8/Z-IMG_2691_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_2691.jpg",
                 "filetype": "photo",
-                "path": "img/day8/_full_Z-IMG_2691.jpg",
-                "thumb": "img/day8/_thumb_Z-IMG_2691.jpg"
+                "path": "img/day8/Z-IMG_2691_full.jpg",
+                "thumb": "img/day8/Z-IMG_2691_thumb.jpg"
             }
         ],
         "start_address": "611 W Main St, Riverton, WY 82501, USA"
@@ -1154,128 +1154,128 @@ var DayData = [
             {
                 "filename": "A-IMG_2660.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_A-IMG_2660.jpg",
-                "thumb": "img/day9/_thumb_A-IMG_2660.jpg"
+                "path": "img/day9/A-IMG_2660_full.jpg",
+                "thumb": "img/day9/A-IMG_2660_thumb.jpg"
             },
             {
                 "filename": "B-DSC_5723.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_B-DSC_5723.jpg",
-                "thumb": "img/day9/_thumb_B-DSC_5723.jpg"
+                "path": "img/day9/B-DSC_5723_full.jpg",
+                "thumb": "img/day9/B-DSC_5723_thumb.jpg"
             },
             {
                 "filename": "B-IMG_2675.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_B-IMG_2675.jpg",
-                "thumb": "img/day9/_thumb_B-IMG_2675.jpg"
+                "path": "img/day9/B-IMG_2675_full.jpg",
+                "thumb": "img/day9/B-IMG_2675_thumb.jpg"
             },
             {
                 "filename": "B-IMG_2677.JPEG",
                 "filetype": "photo",
-                "path": "img/day9/_full_B-IMG_2677.JPEG",
-                "thumb": "img/day9/_thumb_B-IMG_2677.JPEG"
+                "path": "img/day9/B-IMG_2677_full.JPEG",
+                "thumb": "img/day9/B-IMG_2677_thumb.JPEG"
             },
             {
                 "filename": "C-IMG_0754.JPG",
                 "filetype": "photo",
-                "path": "img/day9/_full_C-IMG_0754.JPG",
-                "thumb": "img/day9/_thumb_C-IMG_0754.JPG"
+                "path": "img/day9/C-IMG_0754_full.JPG",
+                "thumb": "img/day9/C-IMG_0754_thumb.JPG"
             },
             {
-                "filename": "D-IMG_6699.m4v.png",
+                "filename": "D-IMG_6699.m4v",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1kUFnzS0YZTnwedPSu0daVbhNQ4nMXKVm/preview",
-                "thumb": "img/day9/_thumb_D-IMG_6699.m4v.jpg"
+                "thumb": "img/day9/D-IMG_6699.m4v_thumb.jpg"
             },
             {
                 "filename": "DSC_5730.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_DSC_5730.jpg",
-                "thumb": "img/day9/_thumb_DSC_5730.jpg"
+                "path": "img/day9/DSC_5730_full.jpg",
+                "thumb": "img/day9/DSC_5730_thumb.jpg"
             },
             {
                 "filename": "DSC_5749.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_DSC_5749.jpg",
-                "thumb": "img/day9/_thumb_DSC_5749.jpg"
+                "path": "img/day9/DSC_5749_full.jpg",
+                "thumb": "img/day9/DSC_5749_thumb.jpg"
             },
             {
                 "filename": "DSC_5751.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_DSC_5751.jpg",
-                "thumb": "img/day9/_thumb_DSC_5751.jpg"
+                "path": "img/day9/DSC_5751_full.jpg",
+                "thumb": "img/day9/DSC_5751_thumb.jpg"
             },
             {
                 "filename": "DSC_5759.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_DSC_5759.jpg",
-                "thumb": "img/day9/_thumb_DSC_5759.jpg"
+                "path": "img/day9/DSC_5759_full.jpg",
+                "thumb": "img/day9/DSC_5759_thumb.jpg"
             },
             {
                 "filename": "E-IMG_0766.JPG",
                 "filetype": "photo",
-                "path": "img/day9/_full_E-IMG_0766.JPG",
-                "thumb": "img/day9/_thumb_E-IMG_0766.JPG"
+                "path": "img/day9/E-IMG_0766_full.JPG",
+                "thumb": "img/day9/E-IMG_0766_thumb.JPG"
             },
             {
                 "filename": "F-DSC_5805.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_F-DSC_5805.jpg",
-                "thumb": "img/day9/_thumb_F-DSC_5805.jpg"
+                "path": "img/day9/F-DSC_5805_full.jpg",
+                "thumb": "img/day9/F-DSC_5805_thumb.jpg"
             },
             {
                 "filename": "F-DSC_5813.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_F-DSC_5813.jpg",
-                "thumb": "img/day9/_thumb_F-DSC_5813.jpg"
+                "path": "img/day9/F-DSC_5813_full.jpg",
+                "thumb": "img/day9/F-DSC_5813_thumb.jpg"
             },
             {
                 "filename": "F-DSC_5818.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_F-DSC_5818.jpg",
-                "thumb": "img/day9/_thumb_F-DSC_5818.jpg"
+                "path": "img/day9/F-DSC_5818_full.jpg",
+                "thumb": "img/day9/F-DSC_5818_thumb.jpg"
             },
             {
                 "filename": "F-DSC_5829.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_F-DSC_5829.jpg",
-                "thumb": "img/day9/_thumb_F-DSC_5829.jpg"
+                "path": "img/day9/F-DSC_5829_full.jpg",
+                "thumb": "img/day9/F-DSC_5829_thumb.jpg"
             },
             {
                 "filename": "F-IMG_2687.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_F-IMG_2687.jpg",
-                "thumb": "img/day9/_thumb_F-IMG_2687.jpg"
+                "path": "img/day9/F-IMG_2687_full.jpg",
+                "thumb": "img/day9/F-IMG_2687_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5830.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_G-DSC_5830.jpg",
-                "thumb": "img/day9/_thumb_G-DSC_5830.jpg"
+                "path": "img/day9/G-DSC_5830_full.jpg",
+                "thumb": "img/day9/G-DSC_5830_thumb.jpg"
             },
             {
                 "filename": "G-DSC_5835.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_G-DSC_5835.jpg",
-                "thumb": "img/day9/_thumb_G-DSC_5835.jpg"
+                "path": "img/day9/G-DSC_5835_full.jpg",
+                "thumb": "img/day9/G-DSC_5835_thumb.jpg"
             },
             {
-                "filename": "ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4.png",
+                "filename": "ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4",
                 "filetype": "video",
                 "path": "https://drive.google.com/file/d/1qErlk87xNdsjP4HhRjwtfZ8mwuckH--D/preview",
-                "thumb": "img/day9/_thumb_ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4.jpg"
+                "thumb": "img/day9/ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4_thumb.jpg"
             },
             {
                 "filename": "J-IMG_6707.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_J-IMG_6707.jpg",
-                "thumb": "img/day9/_thumb_J-IMG_6707.jpg"
+                "path": "img/day9/J-IMG_6707_full.jpg",
+                "thumb": "img/day9/J-IMG_6707_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_6709.jpg",
                 "filetype": "photo",
-                "path": "img/day9/_full_Z-IMG_6709.jpg",
-                "thumb": "img/day9/_thumb_Z-IMG_6709.jpg"
+                "path": "img/day9/Z-IMG_6709_full.jpg",
+                "thumb": "img/day9/Z-IMG_6709_thumb.jpg"
             }
         ],
         "start_address": "Sage Creek Campground, Wall, SD 57790, USA"
@@ -1291,26 +1291,26 @@ var DayData = [
             {
                 "filename": "A-IMG_6714.jpg",
                 "filetype": "photo",
-                "path": "img/day10/_full_A-IMG_6714.jpg",
-                "thumb": "img/day10/_thumb_A-IMG_6714.jpg"
+                "path": "img/day10/A-IMG_6714_full.jpg",
+                "thumb": "img/day10/A-IMG_6714_thumb.jpg"
             },
             {
                 "filename": "IMG_2705.jpg",
                 "filetype": "photo",
-                "path": "img/day10/_full_IMG_2705.jpg",
-                "thumb": "img/day10/_thumb_IMG_2705.jpg"
+                "path": "img/day10/IMG_2705_full.jpg",
+                "thumb": "img/day10/IMG_2705_thumb.jpg"
             },
             {
                 "filename": "IMG_6715.jpg",
                 "filetype": "photo",
-                "path": "img/day10/_full_IMG_6715.jpg",
-                "thumb": "img/day10/_thumb_IMG_6715.jpg"
+                "path": "img/day10/IMG_6715_full.jpg",
+                "thumb": "img/day10/IMG_6715_thumb.jpg"
             },
             {
                 "filename": "IMG_6720.jpg",
                 "filetype": "photo",
-                "path": "img/day10/_full_IMG_6720.jpg",
-                "thumb": "img/day10/_thumb_IMG_6720.jpg"
+                "path": "img/day10/IMG_6720_full.jpg",
+                "thumb": "img/day10/IMG_6720_thumb.jpg"
             }
         ],
         "start_address": "Kansas City, MO, USA"
@@ -1326,8 +1326,8 @@ var DayData = [
             {
                 "filename": "IMG_6722.jpg",
                 "filetype": "photo",
-                "path": "img/day11/_full_IMG_6722.jpg",
-                "thumb": "img/day11/_thumb_IMG_6722.jpg"
+                "path": "img/day11/IMG_6722_full.jpg",
+                "thumb": "img/day11/IMG_6722_thumb.jpg"
             }
         ],
         "start_address": "614 Pine St, Madison, WI 53715, USA"
@@ -1343,26 +1343,26 @@ var DayData = [
             {
                 "filename": "fullsizeoutput_13.jpeg",
                 "filetype": "photo",
-                "path": "img/day12/_full_fullsizeoutput_13.jpeg",
-                "thumb": "img/day12/_thumb_fullsizeoutput_13.jpeg"
+                "path": "img/day12/fullsizeoutput_13_full.jpeg",
+                "thumb": "img/day12/fullsizeoutput_13_thumb.jpeg"
             },
             {
                 "filename": "IMG_0924.JPG",
                 "filetype": "photo",
-                "path": "img/day12/_full_IMG_0924.JPG",
-                "thumb": "img/day12/_thumb_IMG_0924.JPG"
+                "path": "img/day12/IMG_0924_full.JPG",
+                "thumb": "img/day12/IMG_0924_thumb.JPG"
             },
             {
                 "filename": "IMG_2712.jpg",
                 "filetype": "photo",
-                "path": "img/day12/_full_IMG_2712.jpg",
-                "thumb": "img/day12/_thumb_IMG_2712.jpg"
+                "path": "img/day12/IMG_2712_full.jpg",
+                "thumb": "img/day12/IMG_2712_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_0928.JPG",
                 "filetype": "photo",
-                "path": "img/day12/_full_Z-IMG_0928.JPG",
-                "thumb": "img/day12/_thumb_Z-IMG_0928.JPG"
+                "path": "img/day12/Z-IMG_0928_full.JPG",
+                "thumb": "img/day12/Z-IMG_0928_thumb.JPG"
             }
         ],
         "start_address": "5000 Forbes Ave, Pittsburgh, PA 15213, USA"
