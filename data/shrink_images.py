@@ -28,7 +28,7 @@ def main():
 
         if len(sys.argv) > 1 and sys.argv[1] == '-rm':
             for x in os.listdir(day_path):
-                if x.startswith('_thumb_'):
+                if x.startswith('_thumb_') or x.startswith('_full_'):
                     os.remove(day_path + '/' + x)
         else:
             for x in os.listdir(day_path):
@@ -44,7 +44,13 @@ def main():
                         img = img.convert('RGB')
                         x = os.path.splitext(x)[0] + '.jpg'
 
-                    if len(sys.argv) > 1 and sys.argv[1] == '-i' and os.path.isfile(day_path + '/_thumb_' + x): continue
+                    if len(sys.argv) > 1 and sys.argv[1] == '-f':
+                        make_thumb, make_full = True, True
+                    else:
+                        make_thumb = not os.path.isfile(day_path + '/_thumb_' + x)
+                        make_full = not os.path.isfile(day_path + '/_full_' + x)
+
+                    if not make_thumb and not make_full: continue
 
                     try:
                         for orientation in ExifTags.TAGS.keys() :
@@ -60,9 +66,17 @@ def main():
                     except (AttributeError, KeyError, IndexError):
                         pass
 
-                    img = resizeimage.resize_width(img, 400)
+                    if make_thumb:
+                        thumb = resizeimage.resize_width(img, 400)
+                        thumb.save(day_path + '/_thumb_' + x, thumb.format)
 
-                    img.save(day_path + '/_thumb_' + x, img.format)
+                    if make_full:
+                        try:
+                            full = resizeimage.resize_height(img, 860)
+                        except:
+                            full = img
+                        full.save(day_path + '/_full_' + x, full.format)
+
                     fd_img.close()
                 elif filetype(x) is None:
                     print 'no matching filetype for ' + x

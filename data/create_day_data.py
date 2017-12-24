@@ -103,7 +103,7 @@ def main():
 
             elif filetype(x) == 'photo':
                 media = {
-                    'path': 'img/day' + str(day_num_UI) + '/' + x,
+                    'path': 'img/day' + str(day_num_UI) + '/_full_' + x,
                     'filename': x,
                     'thumb': 'img/day' + str(day_num_UI) + '/_thumb_' + x,
                     'filetype': filetype(x)
