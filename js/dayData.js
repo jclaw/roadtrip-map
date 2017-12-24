@@ -10,55 +10,55 @@ var DayData = [
             {
                 "filename": "A-IMG_0131.JPG",
                 "filetype": "photo",
-                "path": "img/day1/A-IMG_0131.JPG",
+                "path": "img/day1/_full_A-IMG_0131.JPG",
                 "thumb": "img/day1/_thumb_A-IMG_0131.JPG"
             },
             {
                 "filename": "A-IMG_2529.jpg",
                 "filetype": "photo",
-                "path": "img/day1/A-IMG_2529.jpg",
+                "path": "img/day1/_full_A-IMG_2529.jpg",
                 "thumb": "img/day1/_thumb_A-IMG_2529.jpg"
             },
             {
                 "filename": "A-IMG_2530.jpeg",
                 "filetype": "photo",
-                "path": "img/day1/A-IMG_2530.jpeg",
+                "path": "img/day1/_full_A-IMG_2530.jpeg",
                 "thumb": "img/day1/_thumb_A-IMG_2530.jpeg"
             },
             {
                 "filename": "B-DSC_5035.jpg",
                 "filetype": "photo",
-                "path": "img/day1/B-DSC_5035.jpg",
+                "path": "img/day1/_full_B-DSC_5035.jpg",
                 "thumb": "img/day1/_thumb_B-DSC_5035.jpg"
             },
             {
                 "filename": "B-DSC_5046.jpg",
                 "filetype": "photo",
-                "path": "img/day1/B-DSC_5046.jpg",
+                "path": "img/day1/_full_B-DSC_5046.jpg",
                 "thumb": "img/day1/_thumb_B-DSC_5046.jpg"
             },
             {
                 "filename": "B-DSC_5053.jpg",
                 "filetype": "photo",
-                "path": "img/day1/B-DSC_5053.jpg",
+                "path": "img/day1/_full_B-DSC_5053.jpg",
                 "thumb": "img/day1/_thumb_B-DSC_5053.jpg"
             },
             {
                 "filename": "B-DSC_5055.jpg",
                 "filetype": "photo",
-                "path": "img/day1/B-DSC_5055.jpg",
+                "path": "img/day1/_full_B-DSC_5055.jpg",
                 "thumb": "img/day1/_thumb_B-DSC_5055.jpg"
             },
             {
                 "filename": "B-DSC_5057.jpg",
                 "filetype": "photo",
-                "path": "img/day1/B-DSC_5057.jpg",
+                "path": "img/day1/_full_B-DSC_5057.jpg",
                 "thumb": "img/day1/_thumb_B-DSC_5057.jpg"
             },
             {
                 "filename": "B-IMG_2517.jpeg",
                 "filetype": "photo",
-                "path": "img/day1/B-IMG_2517.jpeg",
+                "path": "img/day1/_full_B-IMG_2517.jpeg",
                 "thumb": "img/day1/_thumb_B-IMG_2517.jpeg"
             },
             {
@@ -70,73 +70,73 @@ var DayData = [
             {
                 "filename": "DSC_5070.jpg",
                 "filetype": "photo",
-                "path": "img/day1/DSC_5070.jpg",
+                "path": "img/day1/_full_DSC_5070.jpg",
                 "thumb": "img/day1/_thumb_DSC_5070.jpg"
             },
             {
                 "filename": "DSC_5073.jpg",
                 "filetype": "photo",
-                "path": "img/day1/DSC_5073.jpg",
+                "path": "img/day1/_full_DSC_5073.jpg",
                 "thumb": "img/day1/_thumb_DSC_5073.jpg"
             },
             {
                 "filename": "DSC_5078.jpg",
                 "filetype": "photo",
-                "path": "img/day1/DSC_5078.jpg",
+                "path": "img/day1/_full_DSC_5078.jpg",
                 "thumb": "img/day1/_thumb_DSC_5078.jpg"
             },
             {
                 "filename": "DSC_5082.jpg",
                 "filetype": "photo",
-                "path": "img/day1/DSC_5082.jpg",
+                "path": "img/day1/_full_DSC_5082.jpg",
                 "thumb": "img/day1/_thumb_DSC_5082.jpg"
             },
             {
                 "filename": "DSC_5086.jpg",
                 "filetype": "photo",
-                "path": "img/day1/DSC_5086.jpg",
+                "path": "img/day1/_full_DSC_5086.jpg",
                 "thumb": "img/day1/_thumb_DSC_5086.jpg"
             },
             {
                 "filename": "IMG_2523.jpg",
                 "filetype": "photo",
-                "path": "img/day1/IMG_2523.jpg",
+                "path": "img/day1/_full_IMG_2523.jpg",
                 "thumb": "img/day1/_thumb_IMG_2523.jpg"
             },
             {
                 "filename": "IMG_2523.jpg",
                 "filetype": "photo",
-                "path": "img/day1/IMG_2523.jpg",
+                "path": "img/day1/_full_IMG_2523.jpg",
                 "thumb": "img/day1/_thumb_IMG_2523.jpg"
             },
             {
                 "filename": "Y-DSC_5030.jpg",
                 "filetype": "photo",
-                "path": "img/day1/Y-DSC_5030.jpg",
+                "path": "img/day1/_full_Y-DSC_5030.jpg",
                 "thumb": "img/day1/_thumb_Y-DSC_5030.jpg"
             },
             {
                 "filename": "Y-IMG_2525.jpg",
                 "filetype": "photo",
-                "path": "img/day1/Y-IMG_2525.jpg",
+                "path": "img/day1/_full_Y-IMG_2525.jpg",
                 "thumb": "img/day1/_thumb_Y-IMG_2525.jpg"
             },
             {
                 "filename": "Y-IMG_6607.jpg",
                 "filetype": "photo",
-                "path": "img/day1/Y-IMG_6607.jpg",
+                "path": "img/day1/_full_Y-IMG_6607.jpg",
                 "thumb": "img/day1/_thumb_Y-IMG_6607.jpg"
             },
             {
                 "filename": "Y-IMG_6607.jpg",
                 "filetype": "photo",
-                "path": "img/day1/Y-IMG_6607.jpg",
+                "path": "img/day1/_full_Y-IMG_6607.jpg",
                 "thumb": "img/day1/_thumb_Y-IMG_6607.jpg"
             },
             {
                 "filename": "Z-IMG_2527.jpg",
                 "filetype": "photo",
-                "path": "img/day1/Z-IMG_2527.jpg",
+                "path": "img/day1/_full_Z-IMG_2527.jpg",
                 "thumb": "img/day1/_thumb_Z-IMG_2527.jpg"
             }
         ],
@@ -153,13 +153,13 @@ var DayData = [
             {
                 "filename": "A-DSC_5110.jpg",
                 "filetype": "photo",
-                "path": "img/day2/A-DSC_5110.jpg",
+                "path": "img/day2/_full_A-DSC_5110.jpg",
                 "thumb": "img/day2/_thumb_A-DSC_5110.jpg"
             },
             {
                 "filename": "A-DSC_5111.jpg",
                 "filetype": "photo",
-                "path": "img/day2/A-DSC_5111.jpg",
+                "path": "img/day2/_full_A-DSC_5111.jpg",
                 "thumb": "img/day2/_thumb_A-DSC_5111.jpg"
             },
             {
@@ -171,25 +171,25 @@ var DayData = [
             {
                 "filename": "C-IMG_0137.JPG",
                 "filetype": "photo",
-                "path": "img/day2/C-IMG_0137.JPG",
+                "path": "img/day2/_full_C-IMG_0137.JPG",
                 "thumb": "img/day2/_thumb_C-IMG_0137.JPG"
             },
             {
                 "filename": "DSC_5105.jpg",
                 "filetype": "photo",
-                "path": "img/day2/DSC_5105.jpg",
+                "path": "img/day2/_full_DSC_5105.jpg",
                 "thumb": "img/day2/_thumb_DSC_5105.jpg"
             },
             {
                 "filename": "DSC_5113.jpg",
                 "filetype": "photo",
-                "path": "img/day2/DSC_5113.jpg",
+                "path": "img/day2/_full_DSC_5113.jpg",
                 "thumb": "img/day2/_thumb_DSC_5113.jpg"
             },
             {
                 "filename": "DSC_5118.jpg",
                 "filetype": "photo",
-                "path": "img/day2/DSC_5118.jpg",
+                "path": "img/day2/_full_DSC_5118.jpg",
                 "thumb": "img/day2/_thumb_DSC_5118.jpg"
             }
         ],
@@ -206,73 +206,73 @@ var DayData = [
             {
                 "filename": "A-DSC_5120.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5120.jpg",
+                "path": "img/day3/_full_A-DSC_5120.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5120.jpg"
             },
             {
                 "filename": "A-DSC_5127.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5127.jpg",
+                "path": "img/day3/_full_A-DSC_5127.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5127.jpg"
             },
             {
                 "filename": "A-DSC_5133.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5133.jpg",
+                "path": "img/day3/_full_A-DSC_5133.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5133.jpg"
             },
             {
                 "filename": "A-DSC_5137.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5137.jpg",
+                "path": "img/day3/_full_A-DSC_5137.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5137.jpg"
             },
             {
                 "filename": "A-DSC_5138.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5138.jpg",
+                "path": "img/day3/_full_A-DSC_5138.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5138.jpg"
             },
             {
                 "filename": "A-DSC_5140.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5140.jpg",
+                "path": "img/day3/_full_A-DSC_5140.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5140.jpg"
             },
             {
                 "filename": "A-DSC_5143.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5143.jpg",
+                "path": "img/day3/_full_A-DSC_5143.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5143.jpg"
             },
             {
                 "filename": "A-DSC_5154.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5154.jpg",
+                "path": "img/day3/_full_A-DSC_5154.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5154.jpg"
             },
             {
                 "filename": "A-DSC_5162.jpg",
                 "filetype": "photo",
-                "path": "img/day3/A-DSC_5162.jpg",
+                "path": "img/day3/_full_A-DSC_5162.jpg",
                 "thumb": "img/day3/_thumb_A-DSC_5162.jpg"
             },
             {
                 "filename": "DSC_5230.jpg",
                 "filetype": "photo",
-                "path": "img/day3/DSC_5230.jpg",
+                "path": "img/day3/_full_DSC_5230.jpg",
                 "thumb": "img/day3/_thumb_DSC_5230.jpg"
             },
             {
                 "filename": "W-DSC_5181.jpg",
                 "filetype": "photo",
-                "path": "img/day3/W-DSC_5181.jpg",
+                "path": "img/day3/_full_W-DSC_5181.jpg",
                 "thumb": "img/day3/_thumb_W-DSC_5181.jpg"
             },
             {
                 "filename": "W-DSC_5182.jpg",
                 "filetype": "photo",
-                "path": "img/day3/W-DSC_5182.jpg",
+                "path": "img/day3/_full_W-DSC_5182.jpg",
                 "thumb": "img/day3/_thumb_W-DSC_5182.jpg"
             },
             {
@@ -290,43 +290,43 @@ var DayData = [
             {
                 "filename": "X-IMG_6617.jpg",
                 "filetype": "photo",
-                "path": "img/day3/X-IMG_6617.jpg",
+                "path": "img/day3/_full_X-IMG_6617.jpg",
                 "thumb": "img/day3/_thumb_X-IMG_6617.jpg"
             },
             {
                 "filename": "X-IMG_6618.jpg",
                 "filetype": "photo",
-                "path": "img/day3/X-IMG_6618.jpg",
+                "path": "img/day3/_full_X-IMG_6618.jpg",
                 "thumb": "img/day3/_thumb_X-IMG_6618.jpg"
             },
             {
                 "filename": "X-IMG_6629.jpg",
                 "filetype": "photo",
-                "path": "img/day3/X-IMG_6629.jpg",
+                "path": "img/day3/_full_X-IMG_6629.jpg",
                 "thumb": "img/day3/_thumb_X-IMG_6629.jpg"
             },
             {
                 "filename": "X1-IMG_0773.JPG",
                 "filetype": "photo",
-                "path": "img/day3/X1-IMG_0773.JPG",
+                "path": "img/day3/_full_X1-IMG_0773.JPG",
                 "thumb": "img/day3/_thumb_X1-IMG_0773.JPG"
             },
             {
                 "filename": "Y-DSC_5199.jpg",
                 "filetype": "photo",
-                "path": "img/day3/Y-DSC_5199.jpg",
+                "path": "img/day3/_full_Y-DSC_5199.jpg",
                 "thumb": "img/day3/_thumb_Y-DSC_5199.jpg"
             },
             {
                 "filename": "Y-DSC_5199.jpg",
                 "filetype": "photo",
-                "path": "img/day3/Y-DSC_5199.jpg",
+                "path": "img/day3/_full_Y-DSC_5199.jpg",
                 "thumb": "img/day3/_thumb_Y-DSC_5199.jpg"
             },
             {
                 "filename": "Z-IMG_2537.JPG",
                 "filetype": "photo",
-                "path": "img/day3/Z-IMG_2537.JPG",
+                "path": "img/day3/_full_Z-IMG_2537.JPG",
                 "thumb": "img/day3/_thumb_Z-IMG_2537.JPG"
             }
         ],
@@ -343,49 +343,49 @@ var DayData = [
             {
                 "filename": "DSC_5201.jpg",
                 "filetype": "photo",
-                "path": "img/day4/DSC_5201.jpg",
+                "path": "img/day4/_full_DSC_5201.jpg",
                 "thumb": "img/day4/_thumb_DSC_5201.jpg"
             },
             {
                 "filename": "DSC_5223.jpg",
                 "filetype": "photo",
-                "path": "img/day4/DSC_5223.jpg",
+                "path": "img/day4/_full_DSC_5223.jpg",
                 "thumb": "img/day4/_thumb_DSC_5223.jpg"
             },
             {
                 "filename": "DSC_5224.jpg",
                 "filetype": "photo",
-                "path": "img/day4/DSC_5224.jpg",
+                "path": "img/day4/_full_DSC_5224.jpg",
                 "thumb": "img/day4/_thumb_DSC_5224.jpg"
             },
             {
                 "filename": "DSC_5226.jpg",
                 "filetype": "photo",
-                "path": "img/day4/DSC_5226.jpg",
+                "path": "img/day4/_full_DSC_5226.jpg",
                 "thumb": "img/day4/_thumb_DSC_5226.jpg"
             },
             {
                 "filename": "IMG_0895.JPG",
                 "filetype": "photo",
-                "path": "img/day4/IMG_0895.JPG",
+                "path": "img/day4/_full_IMG_0895.JPG",
                 "thumb": "img/day4/_thumb_IMG_0895.JPG"
             },
             {
                 "filename": "IMG_6635.jpg",
                 "filetype": "photo",
-                "path": "img/day4/IMG_6635.jpg",
+                "path": "img/day4/_full_IMG_6635.jpg",
                 "thumb": "img/day4/_thumb_IMG_6635.jpg"
             },
             {
                 "filename": "Y-IMG_6633.jpg",
                 "filetype": "photo",
-                "path": "img/day4/Y-IMG_6633.jpg",
+                "path": "img/day4/_full_Y-IMG_6633.jpg",
                 "thumb": "img/day4/_thumb_Y-IMG_6633.jpg"
             },
             {
                 "filename": "Z-IMG_2542.jpg",
                 "filetype": "photo",
-                "path": "img/day4/Z-IMG_2542.jpg",
+                "path": "img/day4/_full_Z-IMG_2542.jpg",
                 "thumb": "img/day4/_thumb_Z-IMG_2542.jpg"
             }
         ],
@@ -402,49 +402,49 @@ var DayData = [
             {
                 "filename": "A-IMG_2547.jpg",
                 "filetype": "photo",
-                "path": "img/day5/A-IMG_2547.jpg",
+                "path": "img/day5/_full_A-IMG_2547.jpg",
                 "thumb": "img/day5/_thumb_A-IMG_2547.jpg"
             },
             {
                 "filename": "A-IMG_2549.jpg",
                 "filetype": "photo",
-                "path": "img/day5/A-IMG_2549.jpg",
+                "path": "img/day5/_full_A-IMG_2549.jpg",
                 "thumb": "img/day5/_thumb_A-IMG_2549.jpg"
             },
             {
                 "filename": "DSC_5246.jpg",
                 "filetype": "photo",
-                "path": "img/day5/DSC_5246.jpg",
+                "path": "img/day5/_full_DSC_5246.jpg",
                 "thumb": "img/day5/_thumb_DSC_5246.jpg"
             },
             {
                 "filename": "DSC_5252.jpg",
                 "filetype": "photo",
-                "path": "img/day5/DSC_5252.jpg",
+                "path": "img/day5/_full_DSC_5252.jpg",
                 "thumb": "img/day5/_thumb_DSC_5252.jpg"
             },
             {
                 "filename": "DSC_5310.jpg",
                 "filetype": "photo",
-                "path": "img/day5/DSC_5310.jpg",
+                "path": "img/day5/_full_DSC_5310.jpg",
                 "thumb": "img/day5/_thumb_DSC_5310.jpg"
             },
             {
                 "filename": "DSC_5312.jpg",
                 "filetype": "photo",
-                "path": "img/day5/DSC_5312.jpg",
+                "path": "img/day5/_full_DSC_5312.jpg",
                 "thumb": "img/day5/_thumb_DSC_5312.jpg"
             },
             {
                 "filename": "DSC_5349.jpg",
                 "filetype": "photo",
-                "path": "img/day5/DSC_5349.jpg",
+                "path": "img/day5/_full_DSC_5349.jpg",
                 "thumb": "img/day5/_thumb_DSC_5349.jpg"
             },
             {
                 "filename": "G-DSC_5238.jpg",
                 "filetype": "photo",
-                "path": "img/day5/G-DSC_5238.jpg",
+                "path": "img/day5/_full_G-DSC_5238.jpg",
                 "thumb": "img/day5/_thumb_G-DSC_5238.jpg"
             },
             {
@@ -456,19 +456,19 @@ var DayData = [
             {
                 "filename": "IMG_6641.jpg",
                 "filetype": "photo",
-                "path": "img/day5/IMG_6641.jpg",
+                "path": "img/day5/_full_IMG_6641.jpg",
                 "thumb": "img/day5/_thumb_IMG_6641.jpg"
             },
             {
                 "filename": "IMG_6649.jpg",
                 "filetype": "photo",
-                "path": "img/day5/IMG_6649.jpg",
+                "path": "img/day5/_full_IMG_6649.jpg",
                 "thumb": "img/day5/_thumb_IMG_6649.jpg"
             },
             {
                 "filename": "IMG_6688.jpg",
                 "filetype": "photo",
-                "path": "img/day5/IMG_6688.jpg",
+                "path": "img/day5/_full_IMG_6688.jpg",
                 "thumb": "img/day5/_thumb_IMG_6688.jpg"
             },
             {
@@ -480,13 +480,13 @@ var DayData = [
             {
                 "filename": "Z-IMG_2557.jpg",
                 "filetype": "photo",
-                "path": "img/day5/Z-IMG_2557.jpg",
+                "path": "img/day5/_full_Z-IMG_2557.jpg",
                 "thumb": "img/day5/_thumb_Z-IMG_2557.jpg"
             },
             {
                 "filename": "Z-IMG_6652.jpg",
                 "filetype": "photo",
-                "path": "img/day5/Z-IMG_6652.jpg",
+                "path": "img/day5/_full_Z-IMG_6652.jpg",
                 "thumb": "img/day5/_thumb_Z-IMG_6652.jpg"
             }
         ],
@@ -503,79 +503,79 @@ var DayData = [
             {
                 "filename": "A-DSC_5257.jpg",
                 "filetype": "photo",
-                "path": "img/day6/A-DSC_5257.jpg",
+                "path": "img/day6/_full_A-DSC_5257.jpg",
                 "thumb": "img/day6/_thumb_A-DSC_5257.jpg"
             },
             {
                 "filename": "A-DSC_5265.jpg",
                 "filetype": "photo",
-                "path": "img/day6/A-DSC_5265.jpg",
+                "path": "img/day6/_full_A-DSC_5265.jpg",
                 "thumb": "img/day6/_thumb_A-DSC_5265.jpg"
             },
             {
                 "filename": "A-DSC_5289.jpg",
                 "filetype": "photo",
-                "path": "img/day6/A-DSC_5289.jpg",
+                "path": "img/day6/_full_A-DSC_5289.jpg",
                 "thumb": "img/day6/_thumb_A-DSC_5289.jpg"
             },
             {
                 "filename": "B-DSC_5336.jpg",
                 "filetype": "photo",
-                "path": "img/day6/B-DSC_5336.jpg",
+                "path": "img/day6/_full_B-DSC_5336.jpg",
                 "thumb": "img/day6/_thumb_B-DSC_5336.jpg"
             },
             {
                 "filename": "B-DSC_5337.jpg",
                 "filetype": "photo",
-                "path": "img/day6/B-DSC_5337.jpg",
+                "path": "img/day6/_full_B-DSC_5337.jpg",
                 "thumb": "img/day6/_thumb_B-DSC_5337.jpg"
             },
             {
                 "filename": "B-IMG_0807.JPG",
                 "filetype": "photo",
-                "path": "img/day6/B-IMG_0807.JPG",
+                "path": "img/day6/_full_B-IMG_0807.JPG",
                 "thumb": "img/day6/_thumb_B-IMG_0807.JPG"
             },
             {
                 "filename": "C-DSC_5317.jpg",
                 "filetype": "photo",
-                "path": "img/day6/C-DSC_5317.jpg",
+                "path": "img/day6/_full_C-DSC_5317.jpg",
                 "thumb": "img/day6/_thumb_C-DSC_5317.jpg"
             },
             {
                 "filename": "C-IMG_0813.JPG",
                 "filetype": "photo",
-                "path": "img/day6/C-IMG_0813.JPG",
+                "path": "img/day6/_full_C-IMG_0813.JPG",
                 "thumb": "img/day6/_thumb_C-IMG_0813.JPG"
             },
             {
                 "filename": "C-IMG_2559.jpg",
                 "filetype": "photo",
-                "path": "img/day6/C-IMG_2559.jpg",
+                "path": "img/day6/_full_C-IMG_2559.jpg",
                 "thumb": "img/day6/_thumb_C-IMG_2559.jpg"
             },
             {
                 "filename": "C-IMG_2561.jpg",
                 "filetype": "photo",
-                "path": "img/day6/C-IMG_2561.jpg",
+                "path": "img/day6/_full_C-IMG_2561.jpg",
                 "thumb": "img/day6/_thumb_C-IMG_2561.jpg"
             },
             {
                 "filename": "D-DSC_5384.jpg",
                 "filetype": "photo",
-                "path": "img/day6/D-DSC_5384.jpg",
+                "path": "img/day6/_full_D-DSC_5384.jpg",
                 "thumb": "img/day6/_thumb_D-DSC_5384.jpg"
             },
             {
                 "filename": "D-IMG_0822.JPG",
                 "filetype": "photo",
-                "path": "img/day6/D-IMG_0822.JPG",
+                "path": "img/day6/_full_D-IMG_0822.JPG",
                 "thumb": "img/day6/_thumb_D-IMG_0822.JPG"
             },
             {
                 "filename": "D1-DSC_5467.jpg",
                 "filetype": "photo",
-                "path": "img/day6/D1-DSC_5467.jpg",
+                "path": "img/day6/_full_D1-DSC_5467.jpg",
                 "thumb": "img/day6/_thumb_D1-DSC_5467.jpg"
             },
             {
@@ -587,79 +587,79 @@ var DayData = [
             {
                 "filename": "DSC_5343.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5343.jpg",
+                "path": "img/day6/_full_DSC_5343.jpg",
                 "thumb": "img/day6/_thumb_DSC_5343.jpg"
             },
             {
                 "filename": "DSC_5371.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5371.jpg",
+                "path": "img/day6/_full_DSC_5371.jpg",
                 "thumb": "img/day6/_thumb_DSC_5371.jpg"
             },
             {
                 "filename": "DSC_5389.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5389.jpg",
+                "path": "img/day6/_full_DSC_5389.jpg",
                 "thumb": "img/day6/_thumb_DSC_5389.jpg"
             },
             {
                 "filename": "DSC_5393.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5393.jpg",
+                "path": "img/day6/_full_DSC_5393.jpg",
                 "thumb": "img/day6/_thumb_DSC_5393.jpg"
             },
             {
                 "filename": "DSC_5395.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5395.jpg",
+                "path": "img/day6/_full_DSC_5395.jpg",
                 "thumb": "img/day6/_thumb_DSC_5395.jpg"
             },
             {
                 "filename": "DSC_5405.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5405.jpg",
+                "path": "img/day6/_full_DSC_5405.jpg",
                 "thumb": "img/day6/_thumb_DSC_5405.jpg"
             },
             {
                 "filename": "DSC_5415.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5415.jpg",
+                "path": "img/day6/_full_DSC_5415.jpg",
                 "thumb": "img/day6/_thumb_DSC_5415.jpg"
             },
             {
                 "filename": "DSC_5428.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5428.jpg",
+                "path": "img/day6/_full_DSC_5428.jpg",
                 "thumb": "img/day6/_thumb_DSC_5428.jpg"
             },
             {
                 "filename": "DSC_5435.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5435.jpg",
+                "path": "img/day6/_full_DSC_5435.jpg",
                 "thumb": "img/day6/_thumb_DSC_5435.jpg"
             },
             {
                 "filename": "DSC_5439.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5439.jpg",
+                "path": "img/day6/_full_DSC_5439.jpg",
                 "thumb": "img/day6/_thumb_DSC_5439.jpg"
             },
             {
                 "filename": "DSC_5443.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5443.jpg",
+                "path": "img/day6/_full_DSC_5443.jpg",
                 "thumb": "img/day6/_thumb_DSC_5443.jpg"
             },
             {
                 "filename": "DSC_5449.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5449.jpg",
+                "path": "img/day6/_full_DSC_5449.jpg",
                 "thumb": "img/day6/_thumb_DSC_5449.jpg"
             },
             {
                 "filename": "DSC_5453.jpg",
                 "filetype": "photo",
-                "path": "img/day6/DSC_5453.jpg",
+                "path": "img/day6/_full_DSC_5453.jpg",
                 "thumb": "img/day6/_thumb_DSC_5453.jpg"
             },
             {
@@ -671,85 +671,85 @@ var DayData = [
             {
                 "filename": "J-DSC_5463.jpg",
                 "filetype": "photo",
-                "path": "img/day6/J-DSC_5463.jpg",
+                "path": "img/day6/_full_J-DSC_5463.jpg",
                 "thumb": "img/day6/_thumb_J-DSC_5463.jpg"
             },
             {
                 "filename": "X-DSC_5474.jpg",
                 "filetype": "photo",
-                "path": "img/day6/X-DSC_5474.jpg",
+                "path": "img/day6/_full_X-DSC_5474.jpg",
                 "thumb": "img/day6/_thumb_X-DSC_5474.jpg"
             },
             {
                 "filename": "X-DSC_5477.jpg",
                 "filetype": "photo",
-                "path": "img/day6/X-DSC_5477.jpg",
+                "path": "img/day6/_full_X-DSC_5477.jpg",
                 "thumb": "img/day6/_thumb_X-DSC_5477.jpg"
             },
             {
                 "filename": "X-DSC_5480.jpg",
                 "filetype": "photo",
-                "path": "img/day6/X-DSC_5480.jpg",
+                "path": "img/day6/_full_X-DSC_5480.jpg",
                 "thumb": "img/day6/_thumb_X-DSC_5480.jpg"
             },
             {
                 "filename": "X-DSC_5487.jpg",
                 "filetype": "photo",
-                "path": "img/day6/X-DSC_5487.jpg",
+                "path": "img/day6/_full_X-DSC_5487.jpg",
                 "thumb": "img/day6/_thumb_X-DSC_5487.jpg"
             },
             {
                 "filename": "X-IMG_6655.jpg",
                 "filetype": "photo",
-                "path": "img/day6/X-IMG_6655.jpg",
+                "path": "img/day6/_full_X-IMG_6655.jpg",
                 "thumb": "img/day6/_thumb_X-IMG_6655.jpg"
             },
             {
                 "filename": "X1-DSC_5537.jpg",
                 "filetype": "photo",
-                "path": "img/day6/X1-DSC_5537.jpg",
+                "path": "img/day6/_full_X1-DSC_5537.jpg",
                 "thumb": "img/day6/_thumb_X1-DSC_5537.jpg"
             },
             {
                 "filename": "X1-IMG_2612.JPEG",
                 "filetype": "photo",
-                "path": "img/day6/X1-IMG_2612.JPEG",
+                "path": "img/day6/_full_X1-IMG_2612.JPEG",
                 "thumb": "img/day6/_thumb_X1-IMG_2612.JPEG"
             },
             {
                 "filename": "Y-DSC_5508.jpg",
                 "filetype": "photo",
-                "path": "img/day6/Y-DSC_5508.jpg",
+                "path": "img/day6/_full_Y-DSC_5508.jpg",
                 "thumb": "img/day6/_thumb_Y-DSC_5508.jpg"
             },
             {
                 "filename": "Y-DSC_5513.jpg",
                 "filetype": "photo",
-                "path": "img/day6/Y-DSC_5513.jpg",
+                "path": "img/day6/_full_Y-DSC_5513.jpg",
                 "thumb": "img/day6/_thumb_Y-DSC_5513.jpg"
             },
             {
                 "filename": "Y-DSC_5526.jpg",
                 "filetype": "photo",
-                "path": "img/day6/Y-DSC_5526.jpg",
+                "path": "img/day6/_full_Y-DSC_5526.jpg",
                 "thumb": "img/day6/_thumb_Y-DSC_5526.jpg"
             },
             {
                 "filename": "Y-DSC_5531.jpg",
                 "filetype": "photo",
-                "path": "img/day6/Y-DSC_5531.jpg",
+                "path": "img/day6/_full_Y-DSC_5531.jpg",
                 "thumb": "img/day6/_thumb_Y-DSC_5531.jpg"
             },
             {
                 "filename": "Y-DSC_5532.jpg",
                 "filetype": "photo",
-                "path": "img/day6/Y-DSC_5532.jpg",
+                "path": "img/day6/_full_Y-DSC_5532.jpg",
                 "thumb": "img/day6/_thumb_Y-DSC_5532.jpg"
             },
             {
                 "filename": "Y-DSC_5535.jpg",
                 "filetype": "photo",
-                "path": "img/day6/Y-DSC_5535.jpg",
+                "path": "img/day6/_full_Y-DSC_5535.jpg",
                 "thumb": "img/day6/_thumb_Y-DSC_5535.jpg"
             },
             {
@@ -761,13 +761,13 @@ var DayData = [
             {
                 "filename": "Z-IMG_0178.JPG",
                 "filetype": "photo",
-                "path": "img/day6/Z-IMG_0178.JPG",
+                "path": "img/day6/_full_Z-IMG_0178.JPG",
                 "thumb": "img/day6/_thumb_Z-IMG_0178.JPG"
             },
             {
                 "filename": "Z1-IMG_6656.jpg",
                 "filetype": "photo",
-                "path": "img/day6/Z1-IMG_6656.jpg",
+                "path": "img/day6/_full_Z1-IMG_6656.jpg",
                 "thumb": "img/day6/_thumb_Z1-IMG_6656.jpg"
             },
             {
@@ -802,37 +802,37 @@ var DayData = [
             {
                 "filename": "DSC_5548.jpg",
                 "filetype": "photo",
-                "path": "img/day7/DSC_5548.jpg",
+                "path": "img/day7/_full_DSC_5548.jpg",
                 "thumb": "img/day7/_thumb_DSC_5548.jpg"
             },
             {
                 "filename": "DSC_5549.jpg",
                 "filetype": "photo",
-                "path": "img/day7/DSC_5549.jpg",
+                "path": "img/day7/_full_DSC_5549.jpg",
                 "thumb": "img/day7/_thumb_DSC_5549.jpg"
             },
             {
                 "filename": "DSC_5552.jpg",
                 "filetype": "photo",
-                "path": "img/day7/DSC_5552.jpg",
+                "path": "img/day7/_full_DSC_5552.jpg",
                 "thumb": "img/day7/_thumb_DSC_5552.jpg"
             },
             {
                 "filename": "DSC_5555.jpg",
                 "filetype": "photo",
-                "path": "img/day7/DSC_5555.jpg",
+                "path": "img/day7/_full_DSC_5555.jpg",
                 "thumb": "img/day7/_thumb_DSC_5555.jpg"
             },
             {
                 "filename": "DSC_5556.jpg",
                 "filetype": "photo",
-                "path": "img/day7/DSC_5556.jpg",
+                "path": "img/day7/_full_DSC_5556.jpg",
                 "thumb": "img/day7/_thumb_DSC_5556.jpg"
             },
             {
                 "filename": "DSC_5558.jpg",
                 "filetype": "photo",
-                "path": "img/day7/DSC_5558.jpg",
+                "path": "img/day7/_full_DSC_5558.jpg",
                 "thumb": "img/day7/_thumb_DSC_5558.jpg"
             },
             {
@@ -850,157 +850,157 @@ var DayData = [
             {
                 "filename": "E-D-IMG_6660.jpg",
                 "filetype": "photo",
-                "path": "img/day7/E-D-IMG_6660.jpg",
+                "path": "img/day7/_full_E-D-IMG_6660.jpg",
                 "thumb": "img/day7/_thumb_E-D-IMG_6660.jpg"
             },
             {
                 "filename": "E-D-IMG_6660.jpg",
                 "filetype": "photo",
-                "path": "img/day7/E-D-IMG_6660.jpg",
+                "path": "img/day7/_full_E-D-IMG_6660.jpg",
                 "thumb": "img/day7/_thumb_E-D-IMG_6660.jpg"
             },
             {
                 "filename": "E-DSC_5561.jpg",
                 "filetype": "photo",
-                "path": "img/day7/E-DSC_5561.jpg",
+                "path": "img/day7/_full_E-DSC_5561.jpg",
                 "thumb": "img/day7/_thumb_E-DSC_5561.jpg"
             },
             {
                 "filename": "E-DSC_5563.jpg",
                 "filetype": "photo",
-                "path": "img/day7/E-DSC_5563.jpg",
+                "path": "img/day7/_full_E-DSC_5563.jpg",
                 "thumb": "img/day7/_thumb_E-DSC_5563.jpg"
             },
             {
                 "filename": "E-DSC_5573.jpg",
                 "filetype": "photo",
-                "path": "img/day7/E-DSC_5573.jpg",
+                "path": "img/day7/_full_E-DSC_5573.jpg",
                 "thumb": "img/day7/_thumb_E-DSC_5573.jpg"
             },
             {
                 "filename": "E-IMG_6662.jpg",
                 "filetype": "photo",
-                "path": "img/day7/E-IMG_6662.jpg",
+                "path": "img/day7/_full_E-IMG_6662.jpg",
                 "thumb": "img/day7/_thumb_E-IMG_6662.jpg"
             },
             {
                 "filename": "E-IMG_6663.jpg",
                 "filetype": "photo",
-                "path": "img/day7/E-IMG_6663.jpg",
+                "path": "img/day7/_full_E-IMG_6663.jpg",
                 "thumb": "img/day7/_thumb_E-IMG_6663.jpg"
             },
             {
                 "filename": "F-DSC_5574.jpg",
                 "filetype": "photo",
-                "path": "img/day7/F-DSC_5574.jpg",
+                "path": "img/day7/_full_F-DSC_5574.jpg",
                 "thumb": "img/day7/_thumb_F-DSC_5574.jpg"
             },
             {
                 "filename": "F-DSC_5578.jpg",
                 "filetype": "photo",
-                "path": "img/day7/F-DSC_5578.jpg",
+                "path": "img/day7/_full_F-DSC_5578.jpg",
                 "thumb": "img/day7/_thumb_F-DSC_5578.jpg"
             },
             {
                 "filename": "F-IMG_6667.jpg",
                 "filetype": "photo",
-                "path": "img/day7/F-IMG_6667.jpg",
+                "path": "img/day7/_full_F-IMG_6667.jpg",
                 "thumb": "img/day7/_thumb_F-IMG_6667.jpg"
             },
             {
                 "filename": "F-IMG_6668.jpg",
                 "filetype": "photo",
-                "path": "img/day7/F-IMG_6668.jpg",
+                "path": "img/day7/_full_F-IMG_6668.jpg",
                 "thumb": "img/day7/_thumb_F-IMG_6668.jpg"
             },
             {
                 "filename": "G-DSC_5591.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5591.jpg",
+                "path": "img/day7/_full_G-DSC_5591.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5591.jpg"
             },
             {
                 "filename": "G-DSC_5593.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5593.jpg",
+                "path": "img/day7/_full_G-DSC_5593.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5593.jpg"
             },
             {
                 "filename": "G-DSC_5594.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5594.jpg",
+                "path": "img/day7/_full_G-DSC_5594.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5594.jpg"
             },
             {
                 "filename": "G-DSC_5606.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5606.jpg",
+                "path": "img/day7/_full_G-DSC_5606.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5606.jpg"
             },
             {
                 "filename": "G-DSC_5607.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5607.jpg",
+                "path": "img/day7/_full_G-DSC_5607.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5607.jpg"
             },
             {
                 "filename": "G-DSC_5618.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5618.jpg",
+                "path": "img/day7/_full_G-DSC_5618.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5618.jpg"
             },
             {
                 "filename": "G-DSC_5633.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5633.jpg",
+                "path": "img/day7/_full_G-DSC_5633.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5633.jpg"
             },
             {
                 "filename": "G-DSC_5635.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5635.jpg",
+                "path": "img/day7/_full_G-DSC_5635.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5635.jpg"
             },
             {
                 "filename": "G-DSC_5652-2.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5652-2.jpg",
+                "path": "img/day7/_full_G-DSC_5652-2.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5652-2.jpg"
             },
             {
                 "filename": "G-DSC_5659.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5659.jpg",
+                "path": "img/day7/_full_G-DSC_5659.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5659.jpg"
             },
             {
                 "filename": "G-DSC_5674.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5674.jpg",
+                "path": "img/day7/_full_G-DSC_5674.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5674.jpg"
             },
             {
                 "filename": "G-DSC_5678.jpg",
                 "filetype": "photo",
-                "path": "img/day7/G-DSC_5678.jpg",
+                "path": "img/day7/_full_G-DSC_5678.jpg",
                 "thumb": "img/day7/_thumb_G-DSC_5678.jpg"
             },
             {
                 "filename": "IMG_0938.JPG",
                 "filetype": "photo",
-                "path": "img/day7/IMG_0938.JPG",
+                "path": "img/day7/_full_IMG_0938.JPG",
                 "thumb": "img/day7/_thumb_IMG_0938.JPG"
             },
             {
                 "filename": "IMG_2635.jpg",
                 "filetype": "photo",
-                "path": "img/day7/IMG_2635.jpg",
+                "path": "img/day7/_full_IMG_2635.jpg",
                 "thumb": "img/day7/_thumb_IMG_2635.jpg"
             },
             {
                 "filename": "IMG_2644.jpg",
                 "filetype": "photo",
-                "path": "img/day7/IMG_2644.jpg",
+                "path": "img/day7/_full_IMG_2644.jpg",
                 "thumb": "img/day7/_thumb_IMG_2644.jpg"
             },
             {
@@ -1012,13 +1012,13 @@ var DayData = [
             {
                 "filename": "Z-IMG_0512.jpg",
                 "filetype": "photo",
-                "path": "img/day7/Z-IMG_0512.jpg",
+                "path": "img/day7/_full_Z-IMG_0512.jpg",
                 "thumb": "img/day7/_thumb_Z-IMG_0512.jpg"
             },
             {
                 "filename": "Z-IMG_0869.JPG",
                 "filetype": "photo",
-                "path": "img/day7/Z-IMG_0869.JPG",
+                "path": "img/day7/_full_Z-IMG_0869.JPG",
                 "thumb": "img/day7/_thumb_Z-IMG_0869.JPG"
             },
             {
@@ -1041,103 +1041,103 @@ var DayData = [
             {
                 "filename": "A-IMG_6674.jpg",
                 "filetype": "photo",
-                "path": "img/day8/A-IMG_6674.jpg",
+                "path": "img/day8/_full_A-IMG_6674.jpg",
                 "thumb": "img/day8/_thumb_A-IMG_6674.jpg"
             },
             {
                 "filename": "A-IMG_6675.jpg",
                 "filetype": "photo",
-                "path": "img/day8/A-IMG_6675.jpg",
+                "path": "img/day8/_full_A-IMG_6675.jpg",
                 "thumb": "img/day8/_thumb_A-IMG_6675.jpg"
             },
             {
                 "filename": "B-IMG_6678.jpg",
                 "filetype": "photo",
-                "path": "img/day8/B-IMG_6678.jpg",
+                "path": "img/day8/_full_B-IMG_6678.jpg",
                 "thumb": "img/day8/_thumb_B-IMG_6678.jpg"
             },
             {
                 "filename": "C-IMG_2652.jpg",
                 "filetype": "photo",
-                "path": "img/day8/C-IMG_2652.jpg",
+                "path": "img/day8/_full_C-IMG_2652.jpg",
                 "thumb": "img/day8/_thumb_C-IMG_2652.jpg"
             },
             {
                 "filename": "IMG_2650.jpg",
                 "filetype": "photo",
-                "path": "img/day8/IMG_2650.jpg",
+                "path": "img/day8/_full_IMG_2650.jpg",
                 "thumb": "img/day8/_thumb_IMG_2650.jpg"
             },
             {
                 "filename": "IMG_6677.jpg",
                 "filetype": "photo",
-                "path": "img/day8/IMG_6677.jpg",
+                "path": "img/day8/_full_IMG_6677.jpg",
                 "thumb": "img/day8/_thumb_IMG_6677.jpg"
             },
             {
                 "filename": "IMG_6686.jpg",
                 "filetype": "photo",
-                "path": "img/day8/IMG_6686.jpg",
+                "path": "img/day8/_full_IMG_6686.jpg",
                 "thumb": "img/day8/_thumb_IMG_6686.jpg"
             },
             {
                 "filename": "X-DSC_5705.jpg",
                 "filetype": "photo",
-                "path": "img/day8/X-DSC_5705.jpg",
+                "path": "img/day8/_full_X-DSC_5705.jpg",
                 "thumb": "img/day8/_thumb_X-DSC_5705.jpg"
             },
             {
                 "filename": "X-DSC_5714.jpg",
                 "filetype": "photo",
-                "path": "img/day8/X-DSC_5714.jpg",
+                "path": "img/day8/_full_X-DSC_5714.jpg",
                 "thumb": "img/day8/_thumb_X-DSC_5714.jpg"
             },
             {
                 "filename": "X-IMG_0206.JPG",
                 "filetype": "photo",
-                "path": "img/day8/X-IMG_0206.JPG",
+                "path": "img/day8/_full_X-IMG_0206.JPG",
                 "thumb": "img/day8/_thumb_X-IMG_0206.JPG"
             },
             {
                 "filename": "X-IMG_0212.JPG",
                 "filetype": "photo",
-                "path": "img/day8/X-IMG_0212.JPG",
+                "path": "img/day8/_full_X-IMG_0212.JPG",
                 "thumb": "img/day8/_thumb_X-IMG_0212.JPG"
             },
             {
                 "filename": "X-IMG_0214.JPG",
                 "filetype": "photo",
-                "path": "img/day8/X-IMG_0214.JPG",
+                "path": "img/day8/_full_X-IMG_0214.JPG",
                 "thumb": "img/day8/_thumb_X-IMG_0214.JPG"
             },
             {
                 "filename": "X-IMG_6692.jpg",
                 "filetype": "photo",
-                "path": "img/day8/X-IMG_6692.jpg",
+                "path": "img/day8/_full_X-IMG_6692.jpg",
                 "thumb": "img/day8/_thumb_X-IMG_6692.jpg"
             },
             {
                 "filename": "Y-DSC_5717.jpg",
                 "filetype": "photo",
-                "path": "img/day8/Y-DSC_5717.jpg",
+                "path": "img/day8/_full_Y-DSC_5717.jpg",
                 "thumb": "img/day8/_thumb_Y-DSC_5717.jpg"
             },
             {
                 "filename": "Y-DSC_5718.jpg",
                 "filetype": "photo",
-                "path": "img/day8/Y-DSC_5718.jpg",
+                "path": "img/day8/_full_Y-DSC_5718.jpg",
                 "thumb": "img/day8/_thumb_Y-DSC_5718.jpg"
             },
             {
                 "filename": "Z-IMG_2691.jpg",
                 "filetype": "photo",
-                "path": "img/day8/Z-IMG_2691.jpg",
+                "path": "img/day8/_full_Z-IMG_2691.jpg",
                 "thumb": "img/day8/_thumb_Z-IMG_2691.jpg"
             },
             {
                 "filename": "Z-IMG_2691.jpg",
                 "filetype": "photo",
-                "path": "img/day8/Z-IMG_2691.jpg",
+                "path": "img/day8/_full_Z-IMG_2691.jpg",
                 "thumb": "img/day8/_thumb_Z-IMG_2691.jpg"
             }
         ],
@@ -1154,31 +1154,31 @@ var DayData = [
             {
                 "filename": "A-IMG_2660.jpg",
                 "filetype": "photo",
-                "path": "img/day9/A-IMG_2660.jpg",
+                "path": "img/day9/_full_A-IMG_2660.jpg",
                 "thumb": "img/day9/_thumb_A-IMG_2660.jpg"
             },
             {
                 "filename": "B-DSC_5723.jpg",
                 "filetype": "photo",
-                "path": "img/day9/B-DSC_5723.jpg",
+                "path": "img/day9/_full_B-DSC_5723.jpg",
                 "thumb": "img/day9/_thumb_B-DSC_5723.jpg"
             },
             {
                 "filename": "B-IMG_2675.jpg",
                 "filetype": "photo",
-                "path": "img/day9/B-IMG_2675.jpg",
+                "path": "img/day9/_full_B-IMG_2675.jpg",
                 "thumb": "img/day9/_thumb_B-IMG_2675.jpg"
             },
             {
                 "filename": "B-IMG_2677.JPEG",
                 "filetype": "photo",
-                "path": "img/day9/B-IMG_2677.JPEG",
+                "path": "img/day9/_full_B-IMG_2677.JPEG",
                 "thumb": "img/day9/_thumb_B-IMG_2677.JPEG"
             },
             {
                 "filename": "C-IMG_0754.JPG",
                 "filetype": "photo",
-                "path": "img/day9/C-IMG_0754.JPG",
+                "path": "img/day9/_full_C-IMG_0754.JPG",
                 "thumb": "img/day9/_thumb_C-IMG_0754.JPG"
             },
             {
@@ -1190,73 +1190,73 @@ var DayData = [
             {
                 "filename": "DSC_5730.jpg",
                 "filetype": "photo",
-                "path": "img/day9/DSC_5730.jpg",
+                "path": "img/day9/_full_DSC_5730.jpg",
                 "thumb": "img/day9/_thumb_DSC_5730.jpg"
             },
             {
                 "filename": "DSC_5749.jpg",
                 "filetype": "photo",
-                "path": "img/day9/DSC_5749.jpg",
+                "path": "img/day9/_full_DSC_5749.jpg",
                 "thumb": "img/day9/_thumb_DSC_5749.jpg"
             },
             {
                 "filename": "DSC_5751.jpg",
                 "filetype": "photo",
-                "path": "img/day9/DSC_5751.jpg",
+                "path": "img/day9/_full_DSC_5751.jpg",
                 "thumb": "img/day9/_thumb_DSC_5751.jpg"
             },
             {
                 "filename": "DSC_5759.jpg",
                 "filetype": "photo",
-                "path": "img/day9/DSC_5759.jpg",
+                "path": "img/day9/_full_DSC_5759.jpg",
                 "thumb": "img/day9/_thumb_DSC_5759.jpg"
             },
             {
                 "filename": "E-IMG_0766.JPG",
                 "filetype": "photo",
-                "path": "img/day9/E-IMG_0766.JPG",
+                "path": "img/day9/_full_E-IMG_0766.JPG",
                 "thumb": "img/day9/_thumb_E-IMG_0766.JPG"
             },
             {
                 "filename": "F-DSC_5805.jpg",
                 "filetype": "photo",
-                "path": "img/day9/F-DSC_5805.jpg",
+                "path": "img/day9/_full_F-DSC_5805.jpg",
                 "thumb": "img/day9/_thumb_F-DSC_5805.jpg"
             },
             {
                 "filename": "F-DSC_5813.jpg",
                 "filetype": "photo",
-                "path": "img/day9/F-DSC_5813.jpg",
+                "path": "img/day9/_full_F-DSC_5813.jpg",
                 "thumb": "img/day9/_thumb_F-DSC_5813.jpg"
             },
             {
                 "filename": "F-DSC_5818.jpg",
                 "filetype": "photo",
-                "path": "img/day9/F-DSC_5818.jpg",
+                "path": "img/day9/_full_F-DSC_5818.jpg",
                 "thumb": "img/day9/_thumb_F-DSC_5818.jpg"
             },
             {
                 "filename": "F-DSC_5829.jpg",
                 "filetype": "photo",
-                "path": "img/day9/F-DSC_5829.jpg",
+                "path": "img/day9/_full_F-DSC_5829.jpg",
                 "thumb": "img/day9/_thumb_F-DSC_5829.jpg"
             },
             {
                 "filename": "F-IMG_2687.jpg",
                 "filetype": "photo",
-                "path": "img/day9/F-IMG_2687.jpg",
+                "path": "img/day9/_full_F-IMG_2687.jpg",
                 "thumb": "img/day9/_thumb_F-IMG_2687.jpg"
             },
             {
                 "filename": "G-DSC_5830.jpg",
                 "filetype": "photo",
-                "path": "img/day9/G-DSC_5830.jpg",
+                "path": "img/day9/_full_G-DSC_5830.jpg",
                 "thumb": "img/day9/_thumb_G-DSC_5830.jpg"
             },
             {
                 "filename": "G-DSC_5835.jpg",
                 "filetype": "photo",
-                "path": "img/day9/G-DSC_5835.jpg",
+                "path": "img/day9/_full_G-DSC_5835.jpg",
                 "thumb": "img/day9/_thumb_G-DSC_5835.jpg"
             },
             {
@@ -1268,13 +1268,13 @@ var DayData = [
             {
                 "filename": "J-IMG_6707.jpg",
                 "filetype": "photo",
-                "path": "img/day9/J-IMG_6707.jpg",
+                "path": "img/day9/_full_J-IMG_6707.jpg",
                 "thumb": "img/day9/_thumb_J-IMG_6707.jpg"
             },
             {
                 "filename": "Z-IMG_6709.jpg",
                 "filetype": "photo",
-                "path": "img/day9/Z-IMG_6709.jpg",
+                "path": "img/day9/_full_Z-IMG_6709.jpg",
                 "thumb": "img/day9/_thumb_Z-IMG_6709.jpg"
             }
         ],
@@ -1291,25 +1291,25 @@ var DayData = [
             {
                 "filename": "A-IMG_6714.jpg",
                 "filetype": "photo",
-                "path": "img/day10/A-IMG_6714.jpg",
+                "path": "img/day10/_full_A-IMG_6714.jpg",
                 "thumb": "img/day10/_thumb_A-IMG_6714.jpg"
             },
             {
                 "filename": "IMG_2705.jpg",
                 "filetype": "photo",
-                "path": "img/day10/IMG_2705.jpg",
+                "path": "img/day10/_full_IMG_2705.jpg",
                 "thumb": "img/day10/_thumb_IMG_2705.jpg"
             },
             {
                 "filename": "IMG_6715.jpg",
                 "filetype": "photo",
-                "path": "img/day10/IMG_6715.jpg",
+                "path": "img/day10/_full_IMG_6715.jpg",
                 "thumb": "img/day10/_thumb_IMG_6715.jpg"
             },
             {
                 "filename": "IMG_6720.jpg",
                 "filetype": "photo",
-                "path": "img/day10/IMG_6720.jpg",
+                "path": "img/day10/_full_IMG_6720.jpg",
                 "thumb": "img/day10/_thumb_IMG_6720.jpg"
             }
         ],
@@ -1326,7 +1326,7 @@ var DayData = [
             {
                 "filename": "IMG_6722.jpg",
                 "filetype": "photo",
-                "path": "img/day11/IMG_6722.jpg",
+                "path": "img/day11/_full_IMG_6722.jpg",
                 "thumb": "img/day11/_thumb_IMG_6722.jpg"
             }
         ],
@@ -1343,25 +1343,25 @@ var DayData = [
             {
                 "filename": "fullsizeoutput_13.jpeg",
                 "filetype": "photo",
-                "path": "img/day12/fullsizeoutput_13.jpeg",
+                "path": "img/day12/_full_fullsizeoutput_13.jpeg",
                 "thumb": "img/day12/_thumb_fullsizeoutput_13.jpeg"
             },
             {
                 "filename": "IMG_0924.JPG",
                 "filetype": "photo",
-                "path": "img/day12/IMG_0924.JPG",
+                "path": "img/day12/_full_IMG_0924.JPG",
                 "thumb": "img/day12/_thumb_IMG_0924.JPG"
             },
             {
                 "filename": "IMG_2712.jpg",
                 "filetype": "photo",
-                "path": "img/day12/IMG_2712.jpg",
+                "path": "img/day12/_full_IMG_2712.jpg",
                 "thumb": "img/day12/_thumb_IMG_2712.jpg"
             },
             {
                 "filename": "Z-IMG_0928.JPG",
                 "filetype": "photo",
-                "path": "img/day12/Z-IMG_0928.JPG",
+                "path": "img/day12/_full_Z-IMG_0928.JPG",
                 "thumb": "img/day12/_thumb_Z-IMG_0928.JPG"
             }
         ],

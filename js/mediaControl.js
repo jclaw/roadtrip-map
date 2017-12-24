@@ -5,14 +5,11 @@ var MediaControlVM = function (hashString) {
 
     this.hash = ko.observable(parseHashString(hashString));
     this.hash.subscribe(function () {
-        console.log('here');
         location.hash = compileHashString(self.hash().day, self.hash().index);
     });
 
     this.currDay = ko.computed(function () {
-        console.log(self.hash());
         if (self.hash().day && self.hash().day > 0 && self.hash().day <= 12) {
-            console.log('returning ' + (self.hash().day - 1));
             return self.hash().day - 1;
         }
         return -1;
@@ -21,12 +18,9 @@ var MediaControlVM = function (hashString) {
         return self.currDay() + 1;
     })
     this.currDayUI.subscribe(function (day) {
-        console.log(day);
         self.hash({day: day});
     })
     this.dayDatum = ko.computed(function () {
-        console.log(self.currDay());
-        console.log(DayData);
         if (self.currDay() == undefined || self.currDay() == -1) {
             return {
                 description: '',
@@ -35,14 +29,12 @@ var MediaControlVM = function (hashString) {
         }
         return DayData[self.currDay()];
     });
-    console.log(self.hash());
     this.currMediaIndex = ko.computed({
         read: function () {
             var index = self.hash().index;
             if (!index && index != 0) return -1;
             if (index >= self.dayDatum().media.length) return -1;
 
-            console.log(index);
             return index;
         },
         write: function (index) {
@@ -57,10 +49,8 @@ var MediaControlVM = function (hashString) {
 
     this.windowView = ko.computed(function () {
         if (self.currDay() != -1 && self.currMediaIndex() != -1) {
-            console.log('day and media');
             return 'single-media';
         } else if (self.currDay() != -1) {
-            console.log('day');
             return 'day';
         } else {
             return 'closed';
@@ -89,7 +79,6 @@ var MediaControlVM = function (hashString) {
     this.backToDay = function($data) { return this.openDay(); }
 
     this.openDay = function (dayUI) {
-        console.log(dayUI);
         if ((dayUI || dayUI == 0) && !isNaN(dayUI)) {
             self.hash({day: dayUI});
         } else {
