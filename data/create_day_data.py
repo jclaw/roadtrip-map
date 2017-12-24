@@ -7,7 +7,7 @@ import subprocess
 def filetype(x):
     x = x.lower()
     if x.endswith('.jpg') or x.endswith('.jpeg') or x.endswith('.png'):
-        return 'photo'
+        return 'image'
     if x.endswith('.mp4') or x.endswith('.m4v') or x.endswith('.mov'):
         return 'video'
     if x.endswith('.m4a'):
@@ -44,6 +44,7 @@ def main():
         m = re.search(r'\d+$', day)
         day_num_UI = int(m.group())
         day_num = day_num_UI - 1
+        image_path = 'img/' + day + '/'
         day_media = []
 
         listdir = os.listdir('../img/' + day)
@@ -59,15 +60,22 @@ def main():
                 media = {
                     'path': video_map[basename],
                     'filename': basename,
-                    'thumb': 'img/day' + str(day_num_UI) + '/' + basename + '_thumb.jpg',
+                    'thumb': image_path + basename + '_thumb.jpg',
                     'filetype': 'video'
                 }
 
-            elif filetype(x) == 'photo':
+            elif filetype(x) == 'image':
                 media = {
-                    'path': 'img/day' + str(day_num_UI) + '/' + basename + '_full' + extension,
+                    'path': image_path + basename + '_full' + extension,
                     'filename': x,
-                    'thumb': 'img/day' + str(day_num_UI) + '/' + basename + '_thumb' + extension,
+                    'thumb': image_path + basename + '_thumb' + extension,
+                    'filetype': filetype(x)
+                }
+            elif filetype(x) == 'audio':
+                media = {
+                    'path': image_path + x,
+                    'filename': x,
+                    'thumb': 'img/audio.jpg',
                     'filetype': filetype(x)
                 }
 

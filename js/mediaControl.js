@@ -3,6 +3,18 @@
 var MediaControlVM = function (hashString) {
     var self = this;
 
+    // $('video, audio').mediaelementplayer({
+    //     // Do not forget to put a final slash (/)
+    //     pluginPath: '../jslib/mediaelement/',
+    //     // this will allow the CDN to use Flash without restrictions
+    //     // (by default, this is set as `sameDomain`)
+    //     shimScriptAccess: 'always',
+    //
+    //     success: function(mediaElement, originalNode, instance) {
+    //         // do things
+    //     }
+    // });
+
     this.hash = ko.observable(parseHashString(hashString));
     this.hash.subscribe(function () {
         location.hash = compileHashString(self.hash().day, self.hash().index);
@@ -65,9 +77,41 @@ var MediaControlVM = function (hashString) {
         if (self.currMediaIndex() != -1) {
             return self.dayDatum().media[self.currMediaIndex()];
         } else {
-            return { img: '', filename: ''};
+            return {};
         }
     });
+
+    this.imageMedia = ko.computed(function () {
+        return self.currMedia().filetype == 'image' ? self.currMedia() : {};
+    });
+    this.videoMedia = ko.computed(function () {
+        return self.currMedia().filetype == 'video' ? self.currMedia() : {};
+    });
+    this.audioMedia = ko.computed(function () {
+        return self.currMedia().filetype == 'audio' ? self.currMedia() : {};
+    });
+
+
+    this.mediaElementVisible = ko.observable(false).extend({ notify: 'always' });
+    this.mediaElementVisible.subscribe(function(value) {
+        $('video, audio').each(function(i, el) {
+            var find = $(el).find('[src]').addBack('[src]');
+            if (find.length) {
+                var player = $(el).mediaelementplayer({
+                    // Do not forget to put a final slash (/)
+                    pluginPath: '../jslib/mediaelement/',
+                    // this will allow the CDN to use Flash without restrictions
+                    // (by default, this is set as `sameDomain`)
+                    shimScriptAccess: 'always',
+
+                    success: function(mediaElement, originalNode, instance) {
+                        // do things
+                    }
+                });
+                console.log(player);
+            }
+        });
+    })
 
     this.dayTitle = ko.computed(function () {
         return 'Day ' + self.currDayUI() + ': ' + self.dayDatum().date;
@@ -164,10 +208,15 @@ var MediaControlVM = function (hashString) {
 
 };
 
-var view = $('body');
-var VM = new MediaControlVM(location.hash);
-ko.applyBindings(VM, view[0]);
 
-window.MediaControlVM = VM;
+
+$(document).ready(function() {
+    var view = $('body');
+    var VM = new MediaControlVM(location.hash);
+    ko.applyBindings(VM, view[0]);
+
+    window.MediaControlVM = VM;
+})
+
 
 })();

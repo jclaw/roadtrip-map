@@ -167,8 +167,19 @@ i {
     margin-bottom: 2px;
 }
 
-.media-element .play-wrapper {
+.media-element .icon.audio-high, .media-element .play-wrapper {
     display: none;
+}
+
+#window.day .media .media-element.img-loaded .icon.audio-high {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 50%;
+    left: 50%;
+    margin: -11px 0 0 -11px;
+    opacity: .8;
 }
 
 #window.day .media .media-element.img-loaded .play-wrapper {
@@ -225,7 +236,8 @@ i {
 
 #window .featured-media .icon.audio-high {
     opacity: .2;
-    margin-top: 37vh;
+    margin: 37vh auto 18vh;
+    display: block;
 }
 
 #window .featured-media .media-controls {

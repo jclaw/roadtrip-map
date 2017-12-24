@@ -8,8 +8,8 @@
     <meta name="keywords" content="">
     <link rel="shortcut icon" href="favicon.png" type="image/vnd.microsoft.icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="css/lib/simple-grid.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="jslib/mediaelement/mediaelementplayer.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -34,6 +34,7 @@
                 <div class="media" data-bind="foreach: {data: dayDatum().media, as: 'media'}">
                     <div class="media-element" data-bind="click: $root.selectImage.bind($data, $index())">
                         <div class="play-wrapper" data-bind="visible: media.filetype == 'video'" ><img class="icon play" src="img/play.svg"></div>
+                        <img class="icon audio-high" data-bind="visible: media.filetype == 'audio'" src="img/audio-high.svg">
                         <img class="thumb" data-bind="attr: {src: media.thumb, title: media.filename}, event: {load: $root.imageLoad}">
                     </div>
                 </div>
@@ -53,11 +54,17 @@
                     <a href=""><img class="icon forward" src="img/right-chevron.svg"></a>
                 </div>
                 <div class="featured-media">
-                    <img class="photo" data-bind="visible: currMedia().filetype == 'photo', attr: {src: currMedia().path, title: currMedia().filename}">
-                    <iframe data-bind="visible: currMedia().filetype == 'video', attr: {src: currMedia().path, title: currMedia().filename}" width="2000" height="1500"></iframe>
-                    <img data-bind="visible: currMedia().filetype == 'audio'" class="icon audio-high" src="img/audio-high.svg">
-                    <div data-bind="visible: " class="media-controls">
+                    <img class="photo" data-bind="visible: imageMedia().path, attr: {src: imageMedia().path, title: imageMedia().filename}">
+                    <iframe data-bind="visible: videoMedia().path, attr: {src: videoMedia().path, title: videoMedia().filename}" width="2000" height="1500"></iframe>
+                    <div class="audio" data-bind="if: audioMedia().path">
+                        <img class="icon audio-high" src="img/audio-high.svg">
+                        <audio id="audio-player" autoplay>
+                            <source data-bind="attr: {src: audioMedia().path}" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <span data-bind="value: mediaElementVisible(true)" style="display:none"></span>
                     </div>
+
                 </div>
             </div>
 
@@ -73,8 +80,9 @@
     </div>
 
     <script type="text/javascript" src="js/googleMapsResponse_python.js"></script>
-    <script type="text/javascript" src="js/lib/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/lib/knockout-3.4.2.min.js"></script>
+    <script type="text/javascript" src="jslib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jslib/knockout-3.4.2.min.js"></script>
+    <script type="text/javascript" src="jslib/mediaelement/mediaelement-and-player.min.js"></script>
     <script type="text/javascript" src="js/gmapsControl.js"></script>
     <script type="text/javascript" src="js/dayData.js"></script>
     <script type="text/javascript" src="js/mediaControl.js"></script>

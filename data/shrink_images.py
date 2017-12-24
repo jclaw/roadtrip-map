@@ -9,7 +9,7 @@ from PIL import ExifTags
 def filetype(x):
     x = x.lower()
     if x.endswith('.jpg') or x.endswith('.jpeg') or x.endswith('.png'):
-        return 'photo'
+        return 'image'
     if x.endswith('.mp4') or x.endswith('.m4v') or x.endswith('.mov'):
         return 'video'
     if x.endswith('.m4a'):
@@ -22,8 +22,6 @@ def main():
 
     for day in days:
         printnln(day)
-        m = re.search(r'\d+$', day)
-        day_num_UI = int(m.group())
         day_path = '../img/' + day
 
         if len(sys.argv) > 1 and sys.argv[1] == '-rm':
@@ -39,7 +37,7 @@ def main():
                 printnln('.')
 
                 # create thumbs
-                if filetype(x) == 'photo':
+                if filetype(x) == 'image':
                     fd_img = open(day_path + '/' + x, 'r')
                     img = Image.open(fd_img)
                     is_png = x.endswith('.png')
