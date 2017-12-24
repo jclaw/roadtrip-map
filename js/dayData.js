@@ -165,7 +165,7 @@ var DayData = [
             {
                 "filename": "A-IMG_6611.m4v",
                 "filetype": "video",
-                "path": "https://drive.google.com/file/d/1cc2Swcbpi5thkmdgtwFrgQNV7_oF3tY3/preview",
+                "path": "https://drive.google.com/file/d/1fyaiXZx1nUJKo6jEtJY5kM-kcDkaSfkk/preview",
                 "thumb": "img/day2/A-IMG_6611.m4v_thumb.jpg"
             },
             {
