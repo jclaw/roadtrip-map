@@ -23,7 +23,7 @@ def main():
 
     video_map = {
         'C-0268E298-BFAD-4A7C-B83C-8BD7B59BFAEC.mp4': 'https://drive.google.com/file/d/1Ysd4Q-z9NMzCq4wKORL9BNGKQkPRQnac/preview',
-        'A-IMG_6611.m4v': 'https://drive.google.com/file/d/1cc2Swcbpi5thkmdgtwFrgQNV7_oF3tY3/preview',
+        'A-IMG_6611.m4v': 'https://drive.google.com/file/d/1fyaiXZx1nUJKo6jEtJY5kM-kcDkaSfkk/preview',
         'W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4': 'https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview',
         'G-IMG_0162.MOV': 'https://drive.google.com/file/d/1hXE4MYrphPVyAIkjWuhXvKDQbNmVroez/preview',
         'ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4': 'https://drive.google.com/file/d/1JDvEk5rJC5tgYiKO9GPNTMXB69fcwWDH/preview',
