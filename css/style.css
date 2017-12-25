@@ -161,29 +161,32 @@ i {
     margin-left: 2rem;
 }
 
+#window.day .sidebar {
+    width: 370px;
+    float: left;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
 #window.day .media {
     line-height: 0;
-
-    -webkit-column-count: 4;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    4;
-    -moz-column-gap:      0px;
-    column-count:         4;
-    column-gap:           0px;
+    margin-left: 370px;
 }
 
 #window.day .media .media-element {
     position: relative;
     cursor: pointer;
-    margin-left: 2px;
-    margin-bottom: 2px;
 }
 
-.media-element .play-wrapper, .media-element .audio-thumb {
-    display: none;
+.media {
+    opacity: 0;
+    transition: opacity .1s;
+}
+.media.loaded {
+    opacity: 1;
 }
 
-#window.day .media .media-element.img-loaded .play-wrapper {
+#window.day .media .play-wrapper {
     display: block;
     position: absolute;
     width: 50px;
@@ -194,7 +197,7 @@ i {
     left: 50%;
     margin: -25px 0 0 -25px;
 }
-#window.day .media .media-element.img-loaded .audio-thumb {
+#window.day .media .audio-thumb {
     display: block;
     position: absolute;
     width: 100%;
@@ -203,14 +206,14 @@ i {
     opacity: .8;
 }
 
-#window.day .media .media-element .audio-thumb .icon.audio-high {
+#window.day .media .audio-thumb .icon.audio-high {
     display: block;
     width: 22px;
     height: 22px;
     margin: 0 auto;
 }
 
-#window.day .media .media-element .audio-thumb .caption {
+#window.day .media .audio-thumb .caption {
     box-sizing: border-box;
     text-align: center;
     font-size: 0.875rem;
@@ -228,13 +231,6 @@ i {
 #window.day .media .media-element img.thumb {
     width: 100%;
     height: auto;
-}
-
-@media all and (max-width: 700px) {
-    #window.day .sidebar,
-    #window.day .media {
-        grid-column: 1 / 4;
-    }
 }
 
 /* single-media view */
@@ -331,13 +327,26 @@ i {
     top: 18vh;
 }
 
-/* misc */
+/* grid */
 
 .grid {
-    display: grid;
-    grid-template-columns: 375px auto;
-    grid-gap: 1em;
+  max-width: 1200px;
 }
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  width: calc(25% - 2px);
+  margin-bottom: 2px;
+  float: left;
+}
+
+/* misc */
 
 .clickable {
     cursor: pointer;

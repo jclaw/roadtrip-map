@@ -27,18 +27,20 @@
                 </div>
                 <a href="" data-bind="click: closeWindow" ><img class="icon close" src="img/close.svg"></a>
             </div>
-            <div class="content grid">
+            <div class="content">
                 <div class="sidebar">
                     <div class="description" data-bind="html: dayDatum().description"></div>
                 </div>
-                <div class="media" data-bind="foreach: {data: dayDatum().media, as: 'media'}">
-                    <div class="media-element" data-bind="click: $root.selectImage.bind($data, $index())">
-                        <div class="play-wrapper" data-bind="visible: media.filetype == 'video'" ><img class="icon play" src="img/play.svg"></div>
-                        <div class="audio-thumb">
-                            <img class="icon audio-high" data-bind="visible: media.filetype == 'audio'" src="img/audio-high.svg">
-                            <div class="caption" data-bind="visible: media.filetype == 'audio' && media.caption, text: media.caption"></div>
+                <div class="media-wrapper">
+                    <div class="media grid" data-bind="foreach: {data: dayDatum().media, as: 'media'}">
+                        <div class="media-element grid-item" data-bind='attr: {"data-index": $index()}'>
+                            <div class="play-wrapper" data-bind="visible: media.filetype == 'video'" ><img class="icon play" src="img/play.svg"></div>
+                            <div class="audio-thumb">
+                                <img class="icon audio-high" data-bind="visible: media.filetype == 'audio'" src="img/audio-high.svg">
+                                <div class="caption" data-bind="visible: media.filetype == 'audio' && media.caption, text: media.caption"></div>
+                            </div>
+                            <img class="thumb" data-bind="attr: {src: media.thumb, title: media.filename}, event: {load: $root.imageLoad}">
                         </div>
-                        <img class="thumb" data-bind="attr: {src: media.thumb, title: media.filename}, event: {load: $root.imageLoad}">
                     </div>
                 </div>
             </div>

@@ -1,19 +1,9 @@
 (function () {
 
+var VM;
+
 var MediaControlVM = function (hashString) {
     var self = this;
-
-    // $('video, audio').mediaelementplayer({
-    //     // Do not forget to put a final slash (/)
-    //     pluginPath: '../jslib/mediaelement/',
-    //     // this will allow the CDN to use Flash without restrictions
-    //     // (by default, this is set as `sameDomain`)
-    //     shimScriptAccess: 'always',
-    //
-    //     success: function(mediaElement, originalNode, instance) {
-    //         // do things
-    //     }
-    // });
 
     this.hash = ko.observable(parseHashString(hashString));
     this.hash.subscribe(function () {
@@ -41,6 +31,7 @@ var MediaControlVM = function (hashString) {
         }
         return DayData[self.currDay()];
     });
+
     this.currMediaIndex = ko.computed({
         read: function () {
             var index = self.hash().index;
@@ -108,7 +99,6 @@ var MediaControlVM = function (hashString) {
                         // do things
                     }
                 });
-                console.log(player);
             }
         });
     })
@@ -123,13 +113,17 @@ var MediaControlVM = function (hashString) {
     this.backToDay = function($data) { return this.openDay(); }
 
     this.openDay = function (dayUI) {
-        if ((dayUI || dayUI == 0) && !isNaN(dayUI)) {
-            self.hash({day: dayUI});
-        } else {
-            self.hash({day: self.currDayUI()});
-        }
-        return false;
+        $('.media').removeClass('loaded');
+        setTimeout(function () {
+            if ((dayUI || dayUI == 0) && !isNaN(dayUI)) {
+                self.hash({day: dayUI});
+            } else {
+                self.hash({day: self.currDayUI()});
+            }
+            return false;
+        }, 200)
     }
+    
     this.prevDay = function () {
         self.openDay(self.currDayUI() - 1);
         return false;
@@ -145,21 +139,57 @@ var MediaControlVM = function (hashString) {
         return self.currDay() < 11;
     })
 
+    this.numLoaded = 0;
+    this.repeatMasonry = false;
+
     this.imageLoad = function(data, e) {
-        $(e.target).parent().addClass('img-loaded');
+
+        self.numLoaded += 1;
+        if (self.numLoaded == self.dayDatum().media.length) {
+            self.numLoaded = 0;
+
+            if (self.repeatMasonry) {
+                var parent = $('#window.day .media-wrapper').parent();
+                var child = $('#window.day .media-wrapper').remove();
+                parent.append(child);
+
+                $('.grid').masonry({
+                    // options
+                    itemSelector: '.grid-item',
+                    gutter: 2
+                });
+            } else {
+                $('.grid').masonry({
+                    // options
+                    itemSelector: '.grid-item',
+                    gutter: 2
+                });
+            }
+            $('#window.day .media .media-element').click(function () {
+                console.log('click');
+                var index = $(this).data('index');
+                self.selectMedia(index);
+            })
+            setTimeout(function () {
+                $('.media').addClass('loaded');
+            }, 200) // length of css transition
+
+            self.repeatMasonry = true;
+
+        }
     }
 
     // single image controls
 
-    this.selectImage = function (index) {
+    this.selectMedia = function (index) {
         self.currMediaIndex(index);
     }
     this.prevImage = function () {
-        self.selectImage(self.currMediaIndex() - 1);
+        self.selectMedia(self.currMediaIndex() - 1);
         return false;
     }
     this.nextImage = function () {
-        self.selectImage(self.currMediaIndex() + 1);
+        self.selectMedia(self.currMediaIndex() + 1);
         return false;
     }
     this.prevImageActive = ko.computed(function () {
@@ -212,7 +242,7 @@ var MediaControlVM = function (hashString) {
 
 $(document).ready(function() {
     var view = $('body');
-    var VM = new MediaControlVM(location.hash);
+    VM = new MediaControlVM(location.hash);
     ko.applyBindings(VM, view[0]);
 
     window.MediaControlVM = VM;
