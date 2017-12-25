@@ -50,13 +50,17 @@ def main():
         "Y-IMG_6607.jpg":                       "Black Sands Beach",
         "Z-Corner of My Mind.m4a":              "Corner of My Mind first draft",
         "F-elegy to celery.m4a":                "Elegy to celery",
-        "D1-IMG_0661.MOV.png": """<p>Mud mud mud, mud volcano.</p>
-        <p>Mud mud mud, mud volcano.</p>
-        <p>You stink, you smell, you're not like a wishing well.</p>
-        <p>(slow) Buuuuut if you were a wishing well,</p>
-        <p>I'd throw a penny into you,</p>
-        <p>(fast) and hope to get rid of that awful smell.</p>
-        <p>Ohhhhhhhh (repeat!).</p>"""
+        "D1-IMG_0661.MOV.png":                  """<p>Mud mud mud, mud volcano.</p>
+                                                <p>Mud mud mud, mud volcano.</p>
+                                                <p>You stink, you smell, you're not like a wishing well.</p>
+                                                <p>(slow) Buuuuut if you were a wishing well,</p>
+                                                <p>I'd throw a penny into you,</p>
+                                                <p>(fast) and hope to get rid of that awful smell.</p>
+                                                <p>Ohhhhhhhh (repeat!).</p>""",
+        "Z1-Tetons.m4a":                        "Tetons history book song",
+        "E-D1-aidan mandolin.m4a":              "Aidan and the mandolin",
+        "Z1-9-11-17, 11:23 PM.m4a":             "Coyotes",
+
     }
 
     for day in days:
@@ -98,6 +102,7 @@ def main():
                     'filetype': filetype(x)
                 }
 
+            print x
             if x in captions:
                 media['caption'] = captions[x]
 
@@ -123,12 +128,15 @@ def main():
                     para[0].text = quoteblock.search(para[0].text).group(1)
                 else:
                     parastring += '<p>'
-                for inline in para:
-                    if inline.attrib.get('italics', 'false') == 'true':
-                        parastring += '<i>'
-                    parastring += inline.text
-                    if inline.attrib.get('italics', 'false') == 'true':
-                        parastring += '</i>'
+                if para.text:
+                    parastring = para.text
+                else:
+                    for inline in para:
+                        if inline.attrib.get('italics', 'false') == 'true':
+                            parastring += '<i>'
+                        parastring += inline.text
+                        if inline.attrib.get('italics', 'false') == 'true':
+                            parastring += '</i>'
 
                 parastring += '</p>'
 
