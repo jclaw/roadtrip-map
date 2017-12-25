@@ -260,10 +260,16 @@ var MediaControlVM = function (hashString) {
         self.currMediaIndex(index);
     }
     this.prevImage = function () {
+        if (self.bgAudioUnmuted()) {
+            self.bgAudioUnsubdue();
+        }
         self.selectMedia(self.currMediaIndex() - 1);
         return false;
     }
     this.nextImage = function () {
+        if (self.bgAudioUnmuted()) {
+            self.bgAudioUnsubdue();
+        }
         self.selectMedia(self.currMediaIndex() + 1);
         return false;
     }
