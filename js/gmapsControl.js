@@ -1,25 +1,25 @@
 (function() {
 
 var GMapsControl = function(Response) {
-    var map;
+    var map, hintInfoWindow, stopoverInfoWindow;
     var self = this;
     var polylineOptions = {
         default: {
             strokeColor: '#C83939',
-            strokeOpacity: 1,
-            strokeWeight: 4
+            strokeOpacity: .8,
+            strokeWeight: 5
         },
         highlight: {
             strokeColor: '#0A89F6',
-            strokeOpacity: 1,
-            strokeWeight: 7
+            strokeOpacity: .8,
+            strokeWeight: 10
         }
     }
     var polylines = [[],[],[],[],[],[],[],[],[],[],[],[]]; // 12 days
-    var stopovers = [];
+    var stopovers = [[],[],[],[],[],[],[],[],[],[],[],[],[]]; // 13 markers
     var legs = [];
     var highlightLeg = new highlightLeg();
-
+    window.highlightLeg = highlightLeg;
     return {
         initMap: initMap,
     }
@@ -27,10 +27,15 @@ var GMapsControl = function(Response) {
     function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
             zoom: 4,
-            center: {lat: 41.85, lng: -87.65},
+            center: {lat: 37.82, lng: -98.58},
             mapTypeId: google.maps.MapTypeId.ROADMAP
             // zoom: 8,
             // center: {lat: 44.43, lng: -110.59}
+        });
+
+        hintInfoWindow = new google.maps.InfoWindow({
+            content: "Start by clicking here!",
+            position: {lat: 39.164141, lng: -123.75}
         });
 
         map.addListener('click', function() {
@@ -38,6 +43,9 @@ var GMapsControl = function(Response) {
         });
 
         calculateAndDisplayRoute();
+        // setTimeout(function () {
+        //     hintInfoWindow.open(map);
+        // }, 15000);
     }
 
     function calculateAndDisplayRoute() {
@@ -94,7 +102,7 @@ var GMapsControl = function(Response) {
     }
 
     function renderDirectionsPolylines(response) {
-        var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        // var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
         for (var i=0; i<polylines.length; i++) {
             for (var j=0; j<polylines[i].length; j++) {
@@ -103,26 +111,60 @@ var GMapsControl = function(Response) {
             }
         }
 
+        stopoverInfoWindow = new google.maps.InfoWindow();
+
         legs = response.routes[0].legs;
         for (i = 0; i < legs.length; i++) {
-            stopovers.push(new google.maps.Marker({
-                position: legs[i].start_location,
-                map: map,
-                label: labels[i % labels.length]
-            }));
-            if (i + 1 == legs.length) {
-                stopovers.push(new google.maps.Marker({
-                    position: legs[i].end_location,
-                    map: map,
-                    label: labels[i + 1 % labels.length]
-                }));
-            }
+
             createLeg(i);
         }
     }
 
+    function infoWindowContent(daytext, daynum) {
+        var string = '<div id="infowindow">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">' + daytext + '</h1>'+
+            '<div id="bodyContent">';
+            if (daynum >= 1) {
+                string += '<p><a href="#day=' + daynum + '" onmouseover="highlightLeg.highlight(' + (daynum - 1) + ')" onmouseout="highlightLeg.reset()">See day ' + daynum + '</a></p>';
+            }
+            if (daynum < legs.length) {
+                string += '<p><a href="#day=' + (daynum + 1) + '" onmouseover="highlightLeg.highlight(' + daynum + ')" onmouseout="highlightLeg.reset()">See day ' + (daynum + 1) + '</a></p>';
+            }
+            string += '</div>'+'</div>';
+        return string;
+    }
+
     function createLeg(legIndex) {
-        var steps = legs[legIndex].steps;
+        var labels = ['0','1','2','3','4','5','6','7','8','9','10','11'];
+
+        var leg = legs[legIndex];
+        var marker = new google.maps.Marker({
+            position: leg.start_location,
+            map: map,
+            label: labels[legIndex]
+        });
+        marker.addListener('click', function (evt) {
+            stopoverInfoWindow.setContent(infoWindowContent(leg.start_place, legIndex));
+            stopoverInfoWindow.open(map, marker);
+        })
+        stopovers[legIndex] = marker;
+        if (legIndex + 1 == legs.length) {
+            var endmarker = new google.maps.Marker({
+                position: leg.end_location,
+                map: map,
+                label: labels[legIndex + 1]
+            })
+            endmarker.addListener('click', function (evt) {
+                stopoverInfoWindow.setContent(infoWindowContent(leg.end_place, legIndex + 1));
+                stopoverInfoWindow.open(map, endmarker);
+            })
+            stopovers[legIndex + 1] = endmarker;
+        }
+
+
+        var steps = leg.steps;
 
         for (j = 0; j < steps.length; j++) {
             var nextSegment = steps[j].path;
@@ -144,6 +186,7 @@ var GMapsControl = function(Response) {
                 console.log(evt);
                 console.log(evt.latLng.toUrlValue(6));
                 highlightLeg.highlight(legIndex);
+                hintInfoWindow.close();
                 MediaControlVM.openDay(legIndex + 1);
             })
             stepPolyline.setMap(map);
@@ -225,7 +268,6 @@ var GMapsControl = function(Response) {
 
 var Response = window.googleMapsResponse;
 
-console.log(Response);
 window.GMapsControl = new GMapsControl(Response);
 
 })();

@@ -53,10 +53,10 @@ var MediaControlVM = function (hashString) {
     // bg audio player
     this.playlist = [
         "audio/01ChurchStreetBlues.m4a",
-        "audio/01GoodFriend.m4a",
         "audio/01IWannaBeYourLover.m4a",
-        "audio/01JamieDear.mp3",
         "audio/05GoodtobeAlone.mp3",
+        "audio/01JamieDear.mp3",
+        "audio/01GoodFriend.m4a",
         "audio/0225or6to4.m4a"
     ]
     this.currSongIndex = ko.observable(0);

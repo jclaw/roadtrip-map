@@ -18,6 +18,8 @@ def parse(data):
     date = datetime.date(2017, 9, 4)
     one_day = datetime.timedelta(days=1)
 
+    locations = ["San Francisco, CA", "The Lost Coast, CA", "Portland, OR", "Victoria, BC", "Seattle, WA", "Bozeman, MT", "Driggs, ID", "Riverton, WY", "The Badlands, SD", "Kansas City, MO", "Madison, WI", "Pittsburgh, PA", "Medford, MA"]
+
     leg_strings = []
     legs = data['routes'][0]['legs']
     for i, leg in enumerate(legs):
@@ -34,6 +36,8 @@ def parse(data):
 
         leg_string = p('{')
         leg_string += add_keys(leg, 'steps')
+        leg_string += '"start_place":"' + locations[i] + '",'
+        leg_string += '"end_place":"' + locations[i + 1] + '",'
 
         leg_string += '"steps":' + p('[')
         for step in leg['steps']:
