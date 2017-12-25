@@ -123,7 +123,7 @@ var MediaControlVM = function (hashString) {
             return false;
         }, 200)
     }
-    
+
     this.prevDay = function () {
         self.openDay(self.currDayUI() - 1);
         return false;
@@ -166,7 +166,6 @@ var MediaControlVM = function (hashString) {
                 });
             }
             $('#window.day .media .media-element').click(function () {
-                console.log('click');
                 var index = $(this).data('index');
                 self.selectMedia(index);
             })
