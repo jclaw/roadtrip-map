@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="100px" viewBox="0 0 99 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>audio-mute</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="single-photo-view-copy-2" transform="translate(-701.000000, -288.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M799.925,346.8375 L791.0875,355.675 L782.25,346.8375 L773.4125,355.675 L764.575,346.8375 L773.4125,338 L764.575,329.1625 L773.4125,320.31875 L782.25,329.1625 L791.0875,320.31875 L799.925,329.1625 L791.0875,338 L799.925,346.8375 Z M719.75,363 C709.39375,363 701,354.6 701,344.25 L701,331.75 C701,321.39375 709.39375,313 719.75,313 L726,313 L757.25,288 L757.25,388 L726,363 L719.75,363 Z M744.75,363 L744.75,344.25 L744.75,331.75 L744.75,313 L732.25,325.5 L719.75,325.5 C716.29375,325.5 713.5,328.3 713.5,331.75 L713.5,344.25 C713.5,347.70625 716.29375,350.5 719.75,350.5 L732.25,350.5 L744.75,363 Z" id="audio-mute"></path>
+        </g>
+    </g>
+</svg>

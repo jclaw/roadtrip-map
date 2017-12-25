@@ -34,6 +34,20 @@ i {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+/* audio control */
+.bg-audio-control {
+    position: absolute;
+    top: 12px;
+    right: 80px;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+.bg-audio-control .icon {
+    position: absolute;
+    width: 18px;
+}
+
 /* window */
 
 #window {

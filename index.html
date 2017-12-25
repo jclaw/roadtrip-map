@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <audio id="bg-audio-player" data-bind="attr: {src: bgAudioSrc}, event: {ended: bgAudioNextSong}"></audio>
+
+
     <div id="map"></div>
     <div id="window" data-bind="css: windowView">
         <div class="view" data-bind="visible: windowView() == 'day'">
@@ -24,6 +27,10 @@
                         <div class="day-title" data-bind="text: dayTitle"></div>
                         <div class="day-subtitle" data-bind="text: daySubtitle"></div>
                     </div>
+                </div>
+                <div class="bg-audio-control" data-bind="animateVisible: windowView() != 'single-media', attr: {src: bgAudioSrc}">
+                    <img class="icon audio-high" data-bind="visible:  bgAudioUnmuted(), click: bgAudioMute" src="img/audio-high.svg">
+                    <img class="icon audio-mute" data-bind="visible: !bgAudioUnmuted(), click: bgAudioUnmute" src="img/audio-mute.svg">
                 </div>
                 <a href="" data-bind="click: closeWindow" ><img class="icon close" src="img/close.svg"></a>
             </div>

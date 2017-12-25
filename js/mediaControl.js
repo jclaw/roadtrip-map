@@ -50,6 +50,55 @@ var MediaControlVM = function (hashString) {
         }
     });
 
+    // bg audio player
+    this.playlist = [
+        "audio/01ChurchStreetBlues.m4a",
+        "audio/01GoodFriend.m4a",
+        "audio/01IWannaBeYourLover.m4a",
+        "audio/01JamieDear.mp3",
+        "audio/05GoodtobeAlone.mp3",
+        "audio/0225or6to4.m4a"
+    ]
+    this.currSongIndex = ko.observable(0);
+    this.bgAudioSrc = ko.computed(function () {
+        return self.playlist[self.currSongIndex()];
+    });
+    this.bgAudioInit = function () {
+        if (self.windowView() != 'single-media') {
+            $('#bg-audio-player').ready(function () {
+                $('#bg-audio-player')[0].play();
+            })
+        }
+    }
+    this.bgAudioUnmuted = ko.observable(true);
+    this.bgAudioMute = function () {
+        $('#bg-audio-player')[0].muted = true;
+        self.bgAudioUnmuted(false);
+    }
+    this.bgAudioUnmute = function () {
+        $('#bg-audio-player')[0].muted = false;
+        self.bgAudioUnmuted(true);
+    }
+    this.bgAudioSubdue = function () {
+        $('#bg-audio-player')[0].muted = true;
+    }
+    this.bgAudioUnsubdue = function () {
+        var audio = $('#bg-audio-player')[0];
+        if (audio.paused == true || typeof audio.paused === undefined) {
+            audio.play();
+        }
+        setTimeout(function () {
+            audio.muted = false;
+        }, 600);
+    }
+    this.bgAudioNextSong = function () {
+        self.currSongIndex((self.currSongIndex() + 1) % self.playlist.length);
+        self.bgAudioInit();
+        console.log(self.currSongIndex());
+    }
+
+
+
     this.windowView = ko.computed(function () {
         if (self.currDay() != -1 && self.currMediaIndex() != -1) {
             return 'single-media';
@@ -60,13 +109,22 @@ var MediaControlVM = function (hashString) {
         }
     });
 
+    self.bgAudioInit();
+
+    this.startedOnSingleMedia = this.windowView() == 'single-media';
+
     this.closeWindow = function () {
         self.hash('');
     }
 
     this.currMedia = ko.computed(function () {
         if (self.currMediaIndex() != -1) {
-            return self.dayDatum().media[self.currMediaIndex()];
+            var mediaItem = self.dayDatum().media[self.currMediaIndex()]
+            if (self.bgAudioUnmuted() && mediaItem.filetype != 'image') {
+                self.bgAudioSubdue();
+            }
+
+            return mediaItem;
         } else {
             return {};
         }
@@ -85,7 +143,7 @@ var MediaControlVM = function (hashString) {
 
     this.mediaElementVisible = ko.observable(false).extend({ notify: 'always' });
     this.mediaElementVisible.subscribe(function(value) {
-        $('video, audio').each(function(i, el) {
+        $('#audio-player').each(function(i, el) {
             var find = $(el).find('[src]').addBack('[src]');
             if (find.length) {
                 var player = $(el).mediaelementplayer({
@@ -113,15 +171,26 @@ var MediaControlVM = function (hashString) {
     this.backToDay = function($data) { return this.openDay(); }
 
     this.openDay = function (dayUI) {
-        $('.media').removeClass('loaded');
+        var passedInDay = (dayUI || dayUI == 0) && !isNaN(dayUI);
+        console.log(self.bgAudioUnmuted());
+        if (self.bgAudioUnmuted()) {
+            self.bgAudioUnsubdue();
+        }
+        if (passedInDay) {
+            $('.media').removeClass('loaded');
+        } else if (self.startedOnSingleMedia) {
+            setTimeout(function() {
+                self.resetMasonry();
+            }, 300);
+        }
         setTimeout(function () {
-            if ((dayUI || dayUI == 0) && !isNaN(dayUI)) {
+            if (passedInDay) {
                 self.hash({day: dayUI});
             } else {
                 self.hash({day: self.currDayUI()});
             }
             return false;
-        }, 200)
+        }, 200) // length of css transition
     }
 
     this.prevDay = function () {
@@ -148,37 +217,40 @@ var MediaControlVM = function (hashString) {
         if (self.numLoaded == self.dayDatum().media.length) {
             self.numLoaded = 0;
 
-            if (self.repeatMasonry) {
-                var parent = $('#window.day .media-wrapper').parent();
-                var child = $('#window.day .media-wrapper').remove();
-                parent.append(child);
-
-                $('.grid').masonry({
-                    // options
-                    itemSelector: '.grid-item',
-                    gutter: 2
-                });
-            } else {
-                $('.grid').masonry({
-                    // options
-                    itemSelector: '.grid-item',
-                    gutter: 2
-                });
-            }
-            $('#window.day .media .media-element').click(function () {
-                var index = $(this).data('index');
-                self.selectMedia(index);
-            })
-            setTimeout(function () {
-                $('.media').addClass('loaded');
-            }, 200) // length of css transition
-
-            self.repeatMasonry = true;
-
+            self.resetMasonry();
         }
     }
 
-    // single image controls
+    this.resetMasonry = function () {
+        if (self.repeatMasonry) {
+            var parent = $('#window.day .media-wrapper').parent();
+            var child = $('#window.day .media-wrapper').remove();
+            parent.append(child);
+
+            $('.grid').masonry({
+                // options
+                itemSelector: '.grid-item',
+                gutter: 2
+            });
+        } else {
+            $('.grid').masonry({
+                // options
+                itemSelector: '.grid-item',
+                gutter: 2
+            });
+        }
+        $('#window.day .media .media-element').click(function () {
+            var index = $(this).data('index');
+            self.selectMedia(index);
+        })
+        setTimeout(function () {
+            $('.media').addClass('loaded');
+        }, 200) // length of css transition
+
+        self.repeatMasonry = true;
+    }
+
+    // single media controls
 
     this.selectMedia = function (index) {
         self.currMediaIndex(index);
@@ -213,6 +285,7 @@ var MediaControlVM = function (hashString) {
     function compileHashString(day, mediaIndex) {
         return day ? day && mediaIndex || mediaIndex == 0 ? 'day=' + day + '&index=' + mediaIndex : 'day=' + day : '';
     }
+
 
     $(window).on('hashchange', function (e) {
         self.hash(parseHashString(location.hash));
