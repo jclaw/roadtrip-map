@@ -13,6 +13,10 @@ i {
     font-family: Georgia;
 }
 
+a {
+    color: white;
+}
+
 .paraspacer {
     height: 1rem;
 }
