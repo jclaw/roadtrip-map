@@ -113,6 +113,10 @@ var MediaControlVM = function (hashString) {
 
     this.startedOnSingleMedia = this.windowView() == 'single-media';
 
+    this.descriptionTitle = ko.computed(function () {
+        return 'Day ' + self.currDayUI();
+    })
+
     this.closeWindow = function () {
         self.hash('');
     }
