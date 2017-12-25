@@ -10,8 +10,16 @@ html, body {
     color: white;
 }
 
+p {
+    margin: 0;
+}
+
 i {
     font-family: Georgia;
+}
+
+.paraspacer {
+    height: 1rem;
 }
 
 /* map */
@@ -149,6 +157,10 @@ i {
 
 /* day view */
 
+#window.day .indented {
+    margin-left: 2rem;
+}
+
 #window.day .media {
     line-height: 0;
 
@@ -167,19 +179,8 @@ i {
     margin-bottom: 2px;
 }
 
-.media-element .icon.audio-high, .media-element .play-wrapper {
+.media-element .play-wrapper, .media-element .audio-thumb {
     display: none;
-}
-
-#window.day .media .media-element.img-loaded .icon.audio-high {
-    display: block;
-    position: absolute;
-    width: 22px;
-    height: 22px;
-    top: 50%;
-    left: 50%;
-    margin: -11px 0 0 -11px;
-    opacity: .8;
 }
 
 #window.day .media .media-element.img-loaded .play-wrapper {
@@ -192,6 +193,29 @@ i {
     top: 50%;
     left: 50%;
     margin: -25px 0 0 -25px;
+}
+#window.day .media .media-element.img-loaded .audio-thumb {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: .8;
+}
+
+#window.day .media .media-element .audio-thumb .icon.audio-high {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 0 auto;
+}
+
+#window.day .media .media-element .audio-thumb .caption {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    padding: 0.5rem 0.375rem;
 }
 
 #window.day .media .media-element .icon.play {
@@ -240,10 +264,6 @@ i {
     display: block;
 }
 
-#window .featured-media .media-controls {
-
-}
-
 #window.single-media .content .back, #window.single-media .content .forward {
     position: absolute;
     top: 47vh;
@@ -290,6 +310,25 @@ i {
     border: none;
     padding-bottom: 10px;
     margin-bottom: 10px;
+}
+
+#window.single-media .caption {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 0.875rem;
+    padding: 0.375rem;
+    opacity: .9;
+    background-color: rgba(0,0,0,.4);
+}
+
+
+#window.single-media .featured-media.audio .caption {
+    /* becomes more of a title for audio */
+    font-size: 1rem;
+    top: 18vh;
 }
 
 /* misc */

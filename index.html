@@ -34,7 +34,10 @@
                 <div class="media" data-bind="foreach: {data: dayDatum().media, as: 'media'}">
                     <div class="media-element" data-bind="click: $root.selectImage.bind($data, $index())">
                         <div class="play-wrapper" data-bind="visible: media.filetype == 'video'" ><img class="icon play" src="img/play.svg"></div>
-                        <img class="icon audio-high" data-bind="visible: media.filetype == 'audio'" src="img/audio-high.svg">
+                        <div class="audio-thumb">
+                            <img class="icon audio-high" data-bind="visible: media.filetype == 'audio'" src="img/audio-high.svg">
+                            <div class="caption" data-bind="visible: media.filetype == 'audio' && media.caption, text: media.caption"></div>
+                        </div>
                         <img class="thumb" data-bind="attr: {src: media.thumb, title: media.filename}, event: {load: $root.imageLoad}">
                     </div>
                 </div>
@@ -53,7 +56,8 @@
                 <div class="nav right" data-bind="click: nextImage, visible: nextImageActive()">
                     <a href=""><img class="icon forward" src="img/right-chevron.svg"></a>
                 </div>
-                <div class="featured-media">
+                <div class="featured-media" data-bind="css: currMedia().filetype">
+                    <div class="caption" data-bind="visible: currMedia().caption, html: currMedia().caption"></div>
                     <img class="photo" data-bind="visible: imageMedia().path, attr: {src: imageMedia().path, title: imageMedia().filename}">
                     <iframe data-bind="visible: videoMedia().path, attr: {src: videoMedia().path, title: videoMedia().filename}" width="2000" height="1500"></iframe>
                     <div class="audio" data-bind="if: audioMedia().path">

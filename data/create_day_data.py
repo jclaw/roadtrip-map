@@ -26,6 +26,9 @@ def main():
         'A-IMG_6611.m4v': 'https://drive.google.com/file/d/1fyaiXZx1nUJKo6jEtJY5kM-kcDkaSfkk/preview',
         'W-ips-978E5904-1DDB-4BE8-B508-461E8D74C173.mp4': 'https://drive.google.com/file/d/11FH5GIULtBsbkYRfKPnlZgyqgWWEtJXf/preview',
         'G-IMG_0162.MOV': 'https://drive.google.com/file/d/1hXE4MYrphPVyAIkjWuhXvKDQbNmVroez/preview',
+        'G-IMG_0163.MOV': 'https://drive.google.com/file/d/1PP-EwfuyjZ7gYl9Hp66ujP7twXjnELdo/preview',
+        'IMG_0165.MOV': 'https://drive.google.com/file/d/1AofSjFkztrMnudF4YAm9k4UVGy7KPxOT/preview',
+        'E-IMG_0670.MOV': 'https://drive.google.com/file/d/1D4cIbSA3qZq_eAQo6XOLiXfEqP5TcAPr/preview',
         'ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4': 'https://drive.google.com/file/d/1JDvEk5rJC5tgYiKO9GPNTMXB69fcwWDH/preview',
         'D1-IMG_0661.MOV': 'https://drive.google.com/file/d/1ohjVmtlVaD4rwHXpsYDzLAWcIUuS_ZjA/preview',
         'IMG_2596.mov': 'https://drive.google.com/file/d/1rZ9N9vWNWdCO-zHiCsSOo85FsaaEYYpk/preview',
@@ -37,7 +40,23 @@ def main():
         'Y-17B93DCB-196C-476C-95C0-A016BB37BEED.mp4': 'https://drive.google.com/file/d/1hy-nRWUy_v0nN7Zrapbk3kuRvgO-lPD9/preview',
         'Z-ips-73368712-C282-4D0B-B5B9-6CCC29074A0A.mp4': 'https://drive.google.com/file/d/10vKx2nsv9yiOVPhQfTnBa5a19E9QHrX7/preview',
         'D-IMG_6699.m4v': 'https://drive.google.com/file/d/1kUFnzS0YZTnwedPSu0daVbhNQ4nMXKVm/preview',
-        'ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4': 'https://drive.google.com/file/d/1qErlk87xNdsjP4HhRjwtfZ8mwuckH--D/preview'
+        'ips-5DEB4148-DCBB-4347-B658-757CADB7630D.mp4': 'https://drive.google.com/file/d/1qErlk87xNdsjP4HhRjwtfZ8mwuckH--D/preview',
+
+    }
+
+    captions = {
+        "thorn junction.m4a": "Thorn junction",
+        "Z-Conor Singing Maura's Harmony.m4a":  "Singing in the dark, Conor trying to sing Maura's harmony",
+        "Y-IMG_6607.jpg":                       "Black Sands Beach",
+        "Z-Corner of My Mind.m4a":              "Corner of My Mind first draft",
+        "F-elegy to celery.m4a":                "Elegy to celery",
+        "D1-IMG_0661.MOV.png": """<p>Mud mud mud, mud volcano.</p>
+        <p>Mud mud mud, mud volcano.</p>
+        <p>You stink, you smell, you're not like a wishing well.</p>
+        <p>(slow) Buuuuut if you were a wishing well,</p>
+        <p>I'd throw a penny into you,</p>
+        <p>(fast) and hope to get rid of that awful smell.</p>
+        <p>Ohhhhhhhh (repeat!).</p>"""
     }
 
     for day in days:
@@ -79,6 +98,9 @@ def main():
                     'filetype': filetype(x)
                 }
 
+            if x in captions:
+                media['caption'] = captions[x]
+
             day_media.append(media)
 
         day_data[day_num]['media'] = day_media
@@ -90,15 +112,28 @@ def main():
         string = ''
         for paragraph_definition in section:
             for para in paragraph_definition:
-                string += '<p>'
+                parastring = ''
+
+                quoteblock = re.compile(r'^[ |\t]*>(.*)')
+
+                if len(para) and re.match(r'^[ |\t]*-', para[0].text):
+                    parastring += '<p class="indented">'
+                elif len(para) and quoteblock.match(para[0].text) is not None:
+                    parastring += '<p class="indented">'
+                    para[0].text = quoteblock.search(para[0].text).group(1)
+                else:
+                    parastring += '<p>'
                 for inline in para:
                     if inline.attrib.get('italics', 'false') == 'true':
-                        string += '<i>'
-                    string += inline.text
+                        parastring += '<i>'
+                    parastring += inline.text
                     if inline.attrib.get('italics', 'false') == 'true':
-                        string += '</i>'
+                        parastring += '</i>'
 
-                string += '</p>'
+                parastring += '</p>'
+
+                if parastring == '<p></p>': parastring = '<div class="paraspacer"></div>'
+                string += parastring
 
         day_data[day_num]['description'] = string
 
