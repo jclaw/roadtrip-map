@@ -124,8 +124,12 @@ var MediaControlVM = function (hashString) {
     this.currMedia = ko.computed(function () {
         if (self.currMediaIndex() != -1) {
             var mediaItem = self.dayDatum().media[self.currMediaIndex()]
-            if (self.bgAudioUnmuted() && mediaItem.filetype != 'image') {
-                self.bgAudioSubdue();
+            if (self.bgAudioUnmuted()) {
+                if (mediaItem.filetype != 'image') {
+                    self.bgAudioSubdue();
+                } else {
+                    self.bgAudioUnsubdue();
+                }
             }
 
             return mediaItem;
@@ -260,16 +264,10 @@ var MediaControlVM = function (hashString) {
         self.currMediaIndex(index);
     }
     this.prevImage = function () {
-        if (self.bgAudioUnmuted()) {
-            self.bgAudioUnsubdue();
-        }
         self.selectMedia(self.currMediaIndex() - 1);
         return false;
     }
     this.nextImage = function () {
-        if (self.bgAudioUnmuted()) {
-            self.bgAudioUnsubdue();
-        }
         self.selectMedia(self.currMediaIndex() + 1);
         return false;
     }
