@@ -3,7 +3,7 @@ import sys
 import datetime
 
 data = json.load(open('../../oldfiles/json/googleMapsResponseNew.json'))
-pretty = True
+pretty = False
 
 def main():
 
