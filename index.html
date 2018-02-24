@@ -24,7 +24,6 @@
 <body>
     <audio id="bg-audio-player" data-bind="attr: {src: bgAudioSrc}, event: {ended: bgAudioNextSong}"></audio>
 
-
     <div id="map"></div>
     <div id="window" data-bind="css: windowView">
         <div class="view" data-bind="visible: windowView() == 'day'">
@@ -65,8 +64,8 @@
 
         <div class="view" data-bind="visible: windowView() == 'single-media'">
             <div class="header">
-                <span class="clickable" data-bind="click: backToDay.bind($data)"><span class="go-back"><img class="icon back" src="img/left-chevron.svg">Day <span data-bind="text: currDayUI"></span></span></span>
-                <a href="" data-bind="click: closeWindow"><img class="icon close" src="img/close.svg"></a>
+                <!-- <span class="clickable" data-bind="click: backToDay.bind($data)"><span class="go-back"><img class="icon back" src="img/left-chevron.svg">Day <span data-bind="text: currDayUI"></span></span></span> -->
+                <a href="" data-bind="click: backToDay.bind($data)"><img class="icon close" src="img/close.svg"></a>
             </div>
             <div class="content">
                 <div class="nav left" data-bind="click: prevImage, visible: prevImageActive()">

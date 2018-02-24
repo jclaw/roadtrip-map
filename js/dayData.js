@@ -376,10 +376,16 @@ var DayData = [
                 "thumb": "img/day4/IMG_0895_thumb.JPG"
             },
             {
-                "filename": "IMG_6635.jpg",
+                "filename": "ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4",
+                "filetype": "video",
+                "path": "https://drive.google.com/file/d/1JDvEk5rJC5tgYiKO9GPNTMXB69fcwWDH/preview",
+                "thumb": "img/day4/ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4_thumb.jpg"
+            },
+            {
+                "filename": "J-IMG_6635.jpg",
                 "filetype": "image",
-                "path": "img/day4/IMG_6635_full.jpg",
-                "thumb": "img/day4/IMG_6635_thumb.jpg"
+                "path": "img/day4/J-IMG_6635_full.jpg",
+                "thumb": "img/day4/J-IMG_6635_thumb.jpg"
             },
             {
                 "filename": "Y-IMG_6633.jpg",
@@ -481,12 +487,6 @@ var DayData = [
                 "filetype": "image",
                 "path": "img/day5/IMG_6688_full.jpg",
                 "thumb": "img/day5/IMG_6688_thumb.jpg"
-            },
-            {
-                "filename": "ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4",
-                "filetype": "video",
-                "path": "https://drive.google.com/file/d/1JDvEk5rJC5tgYiKO9GPNTMXB69fcwWDH/preview",
-                "thumb": "img/day5/ips-8913F265-D739-4D85-99AB-BC8818E790FA.mp4_thumb.jpg"
             },
             {
                 "filename": "Z-IMG_2557.jpg",

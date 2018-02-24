@@ -305,15 +305,18 @@ var MediaControlVM = function (hashString) {
                 self.prevImage();
             } else if (evt.keyCode == 39 && self.nextImageActive()) { // right arrow key
                 self.nextImage();
+            } else if (evt.keyCode == 27) { // esc
+                self.backToDay();
             }
         } else if (self.windowView() == 'day') {
             if (evt.keyCode == 37 && self.prevDayActive()) { // left arrow key
                 self.prevDay();
             } else if (evt.keyCode == 39 && self.nextDayActive()) { // right arrow key
                 self.nextDay();
+            } else if (evt.keyCode == 27) { // esc
+                self.closeWindow();
             }
         }
-
     });
 
 };
